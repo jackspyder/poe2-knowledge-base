@@ -47,7 +47,7 @@ In the v0.4 meta, **Divine Orbs** are the premier high-end currency, while **Exa
 | **Rakiata's Flow** | S (Instant) | Day 3 - Week 2 | Starts high, dips, then stabilizes. |
 | **Logbooks (T15+)** | A (Fast) | Week 2 onwards | Increases as crafters need artifacts. |
 | **Desecrated Orbs** | A (Fast) | Week 3 onwards | Constant demand for Waystone juicing. |
-| **Simulacrum Keys** | B (Bulk) | Week 3 onwards | High demand for cluster jewel farmers. |
+| **All Splinters** | S (Instant) | Throughout League | High demand for Tiered Boss access. |
 
 ---
 

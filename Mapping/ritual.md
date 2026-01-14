@@ -8,7 +8,11 @@ For a 10-map rotation. Aim for high Omen spawn rates and reroll count.
 2.  **Reroll/Omen Tablet**: Reroll cost reduction + Omen chance. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9zna9Y0yfK)
 3.  **Stacker Tablet**: Focus +2/3 Rerolls. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/6zj29q9XFG)
 
-**v0.4 Tablet Change**: Precursor tablets are now applied directly to maps in the Map Device; tower range/overlap is no longer required.
+**v0.4+ Access**: King in the Mists now uses **Ritual Splinters**.
+- **T1 Boss**: 50 Splinters.
+- **T2 Boss**: 100 Splinters.
+- **T3 Boss**: 150 Splinters.
+- **Total**: 300 Splinters required to complete all three tiers (must be done in sequence).
 
 **Priority Modifiers (0.4+):**
 - **Rare Monsters**: 35-40% (Up to 120% total)

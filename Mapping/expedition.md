@@ -3,6 +3,8 @@
 ## 1. TABLET SETUP (Logbook Hunting)
 High-end Expedition is defined by **Logbook Velocity** and **Runic Monster Duplication**.
 
+**v0.4+ Bossing**: Logbook bosses now require **Expedition Splinters** (50/100/150 for T1/T2/T3).
+
 **v0.4 Reward Buff**: Artifact drop rates doubled; Exotic Coinage increased by 50%.
 
 ### Unique Tablet: Forgotten by Time

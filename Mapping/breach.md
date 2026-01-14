@@ -44,7 +44,8 @@ High-end Breach farming focuses on **Splinter Density** and **Hand Spawns**. Req
 
 ### The Splinter Loop
 - **Cost**: ~3 Divine Orbs (Tablets + High-end Waystones).
-- **Yield**: 600–800 Splinters per map (depending on Hand rolls).
+- **Yield**: 600–800 Splinters per map.
+- **v0.4+ Bossing**: Breachlords now require **Breach Splinters** (50/100/150 for T1/T2/T3).
 - **Primary Targets**: Flawless Breachstones and unique Boss drops from **Xesht**.
 
 ### Bossing: Xesht, the Chosen
