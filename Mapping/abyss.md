@@ -59,7 +59,7 @@ High-end Abyss focuses on forcing **Stygian Spires** (replacing Troves) and maxi
 "extra pits""lichborn""desecrated""lightless legions"
 ```
 
-### High-Tier Target Tracking
-- **Level 83 Stygian Vises**: (High Liquidity - Crafting Bases).
+### High-End Target Tracking
+- **Level 83 Stygian Vises**: (High Liquidity - Chaos/Divine pricing).
 - **Desecrated Orbs**: Primary bulk-sell target.
-- **Amanamu Jewels**: (10-50+ Exalts depending on roll).
+- **Amanamu Jewels**: (5-15+ Divines depending on roll).

@@ -24,6 +24,7 @@ Advanced crafting techniques for elite-tier gear.
 
 - [Recombinators](/Crafting/recombinator.md): High-iLevel base preservation and weight optimization.
 - [Waystone Perfection](/Crafting/waystone-perfection.md): Crafting T16+ Waystones with Desecrated mods.
+- [Early Value Crafts](/Crafting/early-league-value.md): High-velocity crafts for Days 1-3.
 - [Early Maps](/Crafting/early-maps.md): Efficient progression to Red Maps (League Start).
 
 ---
@@ -32,6 +33,7 @@ Advanced crafting techniques for elite-tier gear.
 Tracking wealth development and market dynamics.
 
 - [Currency Progression](/Economy/currency.md): Week-by-week economy shifts and Div/hr targets.
+- [Wealth Investing](/Economy/investing.md): Strategic capital growth and bulk flipping.
 
 ---
 

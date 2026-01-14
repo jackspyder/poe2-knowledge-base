@@ -1,14 +1,13 @@
 # POE2 Economy Progression: Fate of the Vaal (v0.4+)
 
-## 1. CURRENCY RELATIONSHIP (EX vs DIV)
-In the v0.4 meta, **Divine Orbs** are the premier high-end currency, while **Exalted Orbs** serve as the high-liquidity trading unit for mid-tier items.
+## 1. CURRENCY RELATIONSHIP (EX : CHAOS : DIV)
+In the v0.4 meta, **Divine Orbs** are the premier high-end asset, **Chaos Orbs** are the professional trading unit, and **Exalted Orbs** are the base currency.
 
-| Phase | Exalted : Chaos | Divine : Exalted | Market Sentiment |
-| :--- | :--- | :--- | :--- |
-| **Day 1-3** | 15:1 - 25:1 | 40:1 - 60:1 | Hyper-inflation of progression items. |
-| **Week 1** | 30:1 - 40:1 | 110:1 - 130:1 | Lineage Gem demand peaks. |
-| **Week 2** | 45:1 - 55:1 | 250:1+ | High-end crafting & exploit-driven spikes. |
-| **Month 1** | Stable 50:1 | Stable 280:1 | Mature market; focus on bulk/mirror-tier. |
+| Phase | Chaos : Exalted | Divine : Exalted | Divine : Chaos | Market Sentiment |
+| :--- | :--- | :--- | :--- | :--- |
+| **Day 1-3** | 3:1 - 5:1 | 15:1 - 25:1 | ~5:1 | Initial scarcity phase. |
+| **Week 1** | 6:1 - 8:1 | 30:1 - 45:1 | ~6:1 | Exalt supply stabilizes as common drop. |
+| **Current (Expert)** | **7.4 : 1** | **38 : 1** | **~5.1 : 1** | Mature market; focus on Divine/Chaos. |
 
 ---
 
@@ -16,27 +15,26 @@ In the v0.4 meta, **Divine Orbs** are the premier high-end currency, while **Exa
 
 ### Week 1: The Progression Rush
 *   **Focus**: Map completion and early Anomaly Boss unlocks.
-*   **High Liquidity**: Alchemy Orbs, Tier 15 Waystones, and Early Lineage Gems (**Rakiata's Flow** ~20-25 Div).
-*   **Profit Target**: 2-3 Div/hr (Raw drops + early gear sales).
-*   **Strategy**: Rush Red Maps to sell T15+ bases to the "Second Wave" of players.
+*   **High Liquidity**: Alchemy Orbs, T15 Waystones, and Early Lineage Gems.
+*   **Profit Target**: 2-3 Div/hr.
+*   **Strategy**: Convert Exalts into Chaos immediately to afford T15+ progression.
 
 ### Week 2: The Fragmentation Phase
 *   **Focus**: Scaling "Juice" (Tablets) and high-tier Fragments.
-*   **High Liquidity**: **Reliquary Keys** (Azmeri ~30 Div), Simulacrum Splinters, and Logbooks.
-*   **Market Shift**: Rapid inflation of "best-in-slot" items for the dominant meta (e.g., Druid gear in v0.4).
-*   **Profit Target**: 5-8 Div/hr (Bulk fragment selling).
+*   **High Liquidity**: Reliquary Keys, Simulacrum Splinters, and Logbooks.
+*   **Market Shift**: Rapid inflation of Chaos/Divine value relative to Exalts.
+*   **Profit Target**: 5-8 Div/hr.
 
 ### Week 3: Post-Patch Stabilization
 *   **Focus**: Late-game crafting (Recombinators) and Bossing.
-*   **High Liquidity**: **Desecrated Currency**, Omen of Whittling, and Level 83 Logbooks.
-*   **Market Shift**: Developer patches (e.g., 0.4.0c) typically hit this week to fix exploits, stabilizing the value of raw currency.
-*   **Profit Target**: 10-15 Div/hr (Targeted farming / Crafting profit).
+*   **High Liquidity**: Desecrated Currency, Omen of Whittling, and Level 83 Logbooks.
+*   **Profit Target**: 10-15 Div/hr.
 
 ### Week 4: Market Maturity
 *   **Focus**: Min-Maxing and Mirror-tier builds.
-*   **High Liquidity**: **Mirrors of Kalandra**, Voices (1/3 passive), and perfect-rolled Lineage Gems.
-*   **Market Shift**: Bulk selling becomes mandatory for efficiency. Single trades under 10 Ex are often ignored by expert farmers.
-*   **Profit Target**: 20-30+ Div/hr (Optimized T15+ loops).
+*   **High Liquidity**: Mirrors of Kalandra, Voices, and perfect Lineage Gems.
+*   **Market Shift**: Experts price items in Chaos/Divines only; Exalts are used purely for small-change bulk buys.
+*   **Profit Target**: 20-30+ Div/hr.
 
 ---
 

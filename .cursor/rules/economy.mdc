@@ -6,9 +6,9 @@ globs: Economy/*.md
 # Economy & Currency Rules
 
 ## Market Dynamics
-- **Currency Reference**: Use **Divine Orbs** as the primary high-end trade currency.
-- **Bulk Pricing**: Strategies should focus on bulk selling for premium rates.
-- **Seasonal Flipping**: Include notes on seasonal price shifts (early league vs mid league).
+- **Currency Hierarchy**: Exalted (Lowest) < Chaos (Mid) < Divine (Highest).
+- **Primary Metrics**: Use **Div/hr** for total profit; use **Exalted Orbs** for base liquidity and low-tier trades.
+- **Bulk Pricing**: Strategies should focus on bulk selling for premium rates in Chaos or Divines.
 
 ## Style
 - **Liquidity Tiers**: Categorize items by how fast they sell (e.g., "High Liquidity" for Rakiata's Flow).

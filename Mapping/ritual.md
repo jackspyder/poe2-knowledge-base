@@ -73,7 +73,7 @@ Switch to this setup once high-value items are deferred. [Trade Link](https://ww
 ## 5. HIGH-VALUE TARGETS & REGEX
 
 ### Chase Omens
-- **Omen of Whittling**: Primary currency goal (150+ Exalts).
+- **Omen of Whittling**: Primary currency goal (25-40 Divines).
 - **Annulment / Erasure**: (Dextral/Sinistral) for high-end crafting.
 - **Amelioration**: Quality scaling.
 
