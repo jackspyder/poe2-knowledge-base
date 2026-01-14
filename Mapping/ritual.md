@@ -1,154 +1,91 @@
-# Ritual Farming Information
+# POE2 T15+ Ritual Strategy (End-Game / Seasonal Reset)
 
+## 1. TABLET SETUP
 
-## FISHING Tablets
+### Fishing Phase (The Hunt)
+For a 10-map rotation. Aim for high Omen spawn rates and reroll count.
+1.  **Freedom of Faith (Unique)**: Mandatory for reroll scaling. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9GJQPR4tK)
+2.  **Reroll/Omen Tablet**: Reroll cost reduction + Omen chance. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9zna9Y0yfK)
+3.  **Stacker Tablet**: Focus +2/3 Rerolls. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/6zj29q9XFG)
 
-### Unique Fishing Tablet
-For a 10 map run you need 2 unique tablets with 5 uses each.
-Required unique tablet to be run:
-```
-https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9GJQPR4tK 
-```
+**Priority Modifiers (0.3.1+):**
+- **Rare Monsters**: 35-40% (Up to 120% total)
+- **Magic Monsters (Teeming)**: 60-70%
+- **Item Rarity**: 25-30%
+- **Ritual Rerolls/Tribute Cost**: High Tier rolls only.
 
+### Buying Phase (The Payoff)
+Switch to this setup once high-value items are deferred. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/op2gDq2YFl)
+- **3x Tribute Tablets**: Magic Pack Size > Pack Size > Suffix Tribute%.
+- **Strategy**: 10 Maps Fishing -> 2 Maps Buying.
 
-### Fishing tablet 2
-reroll cost and either defer cost or omen chance, modify the filters. - Magic packs best prefix, then pack size
+---
 
-```
-https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9zna9Y0yfK
-```
+## 2. WAYSTONE OPTIMIZATION (T15+)
 
-### Fishing Tablet 3
-all that really matters is +2 rerolls, or +3 if you feel fancy. if you can also get magic packs/pack size get it, but its the +2 that matters
-```
-https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/6zj29q9XFG
-```
+### Crafting >60% Pack Size (Density Cap)
+1.  **Omen of Chaotic Quality**: Force pack size priority on Rare T15 base.
+2.  **6-Mod Lock**: Alchemy + Exalted Orbs to cap density.
+3.  **Additives**: **Diluted Liquid Guilt** (Flat PS) + **Preserved Vertebrae** (Desecrate density).
 
-run the above three for fishing. I do all 10 maps then buy them in one or two buy maps
+**Priority Modifiers:**
+- **Quantity/Rarity**: Highest bracket only.
+- **Pack size / Monster Packs**: Synergize prefix + suffix for >60%.
 
+---
 
+## 3. ATLAS PASSIVE SETUPS
 
-## Buying Tablets
+### Setup A: Fishing (Omen Hunting)
+- **Ominous Portents**: 2x Omen chance.
+- **Tempting Offers**: 2x Rerolls + Additional Window.
+- **Promise of Devotion**: 50% Defer Cost Reduction (Mandatory to avoid losing Mirror/Whittling drops).
 
-```
-https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/op2gDq2YFl
-```
+### Setup B: Buying (Tribute Engine)
+- **Wildwood Line (4pt)**: Full Tribute from revived monsters.
+- **Drop**: Omen chance/Rerolls.
+- **Keep**: Defer cost reduction + 4 Ritual count.
 
-just three of these, magic pack > pack size, and as high a tribute% suffix as you can get
+---
 
-drop the two right side ritual points for buy maps - the omen chance and the rerolls, you dont need them for buy maps.
+## 4. T15+ MAP SELECTION
 
-Instead take the wildwood line all 4 points for the full tribute from revived monsters. Keep 4 rituals and defer cost
+| Elite Layouts (Run) | Avoid (Dead Slots / Low Density) |
+| :--- | :--- |
+| **Willow** | Mesa |
+| **Sandspit** | Decay |
+| **Savannah** | Razed Fields |
+| **Wetlands** | Forge |
+| **Steppe** | Steaming Springs |
+| **Confluence** | Blooming Field |
+| **Hive** | |
 
+---
 
-best maps (from my list so far):
+## 5. HIGH-VALUE TARGETS & REGEX
 
-* Confluence, 
-* Hive, 
-* Savannah, 
-* Oasis, 
-* Spring,
-* Necropolis, 
-* Steppe, 
-* Grimhaven
+### Chase Omens
+- **Omen of Whittling**: Primary currency goal (150+ Exalts).
+- **Annulment / Erasure**: (Dextral/Sinistral) for high-end crafting.
+- **Amelioration**: Quality scaling.
 
+### STASH REGEX (2025 Meta)
 
-Avoid:
-* Steaming Springs, 
-* Blooming Field, 
-* Mesa, 
-* Decay, 
-* Razed Fields, 
-* Forge
-
-
-
-REGEX Used in video : 
-
-"al mod" - check first
-
-
-
-RARE MOB + RARITY:
+**Elite Waystones/Tablets:**
 ```regex
-r.+s: \+([4-9].|1..)%""i.+ty: \+([3-9].|1..)%
+"rare mo.+: \+([3-4].|1..)%""teeming"
 ```
-
-PACK SIZE: 
+**Waystone Ready (>40% PS / >25% Q):**
 ```regex
-m.+e: \+(4[2-9]|[5-9].|1..)%
+"pa.+e: \+([4-6].|1..)%""qu.+y: \+([2-3].|1..)%"
 ```
-Or
+**All-In-One High-End:**
 ```regex
-m.+e: \+([3-9].|1..)%
+"i.+ty: \+([4-9].|1..)%|pa.+e: \+([5-9].|1..)%"
 ```
 
-PACK SIZE + RARITY:
-```
-m.+e: \+([2-9].|1..)%""i.+ty: \+([4-9].|1..)%
-```
-
-HIGH RARITY SELL:
-```regex
-i.+ty: \+([7-9].|1..)%
-```
-
-
-
-	BASIC
-
-"gold found" - remove this crap
-
-"al ro" - +1 Rogue Exile
-
-"(1[5-9]|2.)%.+exp" - Experience
-
-"(9|1.)%.+ef" - Effectiveness
-
-"(2[2-9]|30)%.+rari" - Rarity
-
-"(8|9|10)%.+pa" - Pack
-
-"(6.|70)%.+ma" - Magic Mobs
-
-"(3[3-9]|40)%.+rare" - Rare Mobs
-
-
-
-
-
-			RITUAL
-
-"(2[5-9]|30)%.+red|t (2[5-9]|30)%.+sed t|al ti"   - Ritual Defer + Tribute
-
-
-
-			BREACH
-
-"(2[5-9]|30)%.+qua|[1|2].+re mo|al bre" - Breach FULL
-
-"(2[5-9]|30)%.+qua" - Splinter only
-
-
-
-			ABYSS
-
-"ur ad|ed fro" - SALE
-
-
-
-
-
-			EXPEDITION
-
-"(2[1-9]|30)%.+logbooks"
-
-
-
-			DELIRIUM
-
-"(2[1-9]|30)%.+um splin|(2[1-9]|30)%.+awn uni" 
-
-
-
-extra waystones - "(4[1-9]|50)%.+waystones"
+### Video Reference Regex:
+- **Rare + Rarity**: `r.+s: \+([4-9].|1..)%""i.+ty: \+([3-9].|1..)%`
+- **Pack Size**: `m.+e: \+(4[2-9]|[5-9].|1..)%`
+- **Magic Mobs**: `(6.|70)%.+ma`
+- **Rare Mobs**: `(3[3-9]|40)%.+rare`
