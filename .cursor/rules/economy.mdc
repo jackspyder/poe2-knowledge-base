@@ -12,4 +12,4 @@ globs: Economy/*.md
 
 ## Style
 - **Liquidity Tiers**: Categorize items by how fast they sell (e.g., "High Liquidity" for Rakiata's Flow).
-- **Profit Tracking**: Use Exalts-per-hour (Ex/hr) as the primary efficiency metric.
+- **Profit Tracking**: Use Divine Orbs per hour (**Div/hr**) as the primary efficiency metric for experts.
