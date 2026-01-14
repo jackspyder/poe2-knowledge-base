@@ -15,6 +15,7 @@ Detailed T15+ farming loops, tablet synergies, and Atlas configurations.
 | [Abyss](/Mapping/abyss.md) | Stygian Spires & Desecrated Currency | Spire Spawns |
 | [Progression](/Mapping/progression.md) | T1-T15 Rush & Atlas Passive Points | Nexus/Tower Efficiency |
 | [Endgame Setup](/Mapping/endgame-setup.md) | The Grand Project & Pinnacle Access | Strategy & Tools |
+| [Citadels](/Mapping/citadel.md) | Arbiter of Ash & Fragment Rushing | Boss Profit |
 
 ---
 
@@ -22,6 +23,7 @@ Detailed T15+ farming loops, tablet synergies, and Atlas configurations.
 Advanced crafting techniques for elite-tier gear.
 
 - [Recombinators](/Crafting/recombinator.md): High-iLevel base preservation and weight optimization.
+- [Waystone Perfection](/Crafting/waystone-perfection.md): Crafting T16+ Waystones with Desecrated mods.
 - [Early Maps](/Crafting/early-maps.md): Efficient progression to Red Maps (League Start).
 
 ---
