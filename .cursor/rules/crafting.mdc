@@ -1,0 +1,15 @@
+---
+description: Rules for crafting and itemization guides
+globs: Crafting/*.md
+---
+
+# Crafting & Itemization Rules
+
+## High-End Meta
+- **Recombinators**: Focus on high-iLevel base preservation and optimal modifier weights.
+- **Base Tiers**: Only discuss T1/T2 bases and high-end unique interactions.
+- **Omens**: Include Omen usage for crafting (e.g., Omen of Chaotic Quality for Waystones).
+
+## Style
+- **Cost Analysis**: Include estimated crafting costs in Exalted Orbs.
+- **Success Rates**: Provide estimated probabilities for high-risk recombinations or crafts.

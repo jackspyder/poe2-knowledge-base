@@ -1,0 +1,16 @@
+---
+description: Rules for mapping and endgame farming guides
+globs: Mapping/*.md
+---
+
+# Mapping & Endgame Rules
+
+## T15+ Strategy
+- **Tablet Mechanics**: Focus on 3-slot synergies for 6-mod T15 maps.
+- **Waystone Tiers**: Assume T14-T16 Waystones are the baseline.
+- **Efficiency**: All guides must explain the most efficient rotation (e.g., "Fishing" vs "Buying").
+
+## Data Requirements
+- **Regex**: Provide stash tab regex for every mechanic (Ritual, Breach, Expedition, etc.).
+- **Map Tables**: Layout recommendations must be in 1-item-per-row tables.
+- **Juice Priority**: List tablet modifiers in order of "Exalt-per-hour" impact.

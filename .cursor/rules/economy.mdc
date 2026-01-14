@@ -1,0 +1,15 @@
+---
+description: Rules for economy and currency guides
+globs: Economy/*.md
+---
+
+# Economy & Currency Rules
+
+## Market Dynamics
+- **Currency Reference**: Use **Exalted Orbs** as the primary high-end trade currency.
+- **Bulk Pricing**: Strategies should focus on bulk selling for premium rates.
+- **Seasonal Flipping**: Include notes on seasonal price shifts (early league vs mid league).
+
+## Style
+- **Liquidity Tiers**: Categorize items by how fast they sell (e.g., "High Liquidity" for Rakiata's Flow).
+- **Profit Tracking**: Use Exalts-per-hour (Ex/hr) as the primary efficiency metric.

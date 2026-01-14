@@ -1,9 +1,13 @@
-# Path of Exile 2 Knowledge Base Rules (Fate of the Vaal / v0.4+)
+---
+description: Global rules for the PoE2 Knowledge Base
+globs: **/*.md
+---
+
+# PoE2 Knowledge Base Global Rules (Fate of the Vaal / v0.4+)
 
 ## Core Context
 - **Game**: Path of Exile 2 (PoE2).
 - **Current League**: **Fate of the Vaal** (Version 0.4+).
-- **Seasonal Cycle**: Game updates every 4 months. Always prioritize research from the last 3-4 months.
 - **Target Audience**: **Expert Players**. Assume the reader knows all basic mechanics, currency, and map slotting rules.
 
 ## Documentation Style
@@ -15,5 +19,5 @@
 
 ## Technical Requirements
 - **Absolute Paths**: Always use absolute paths for file operations.
-- **Research First**: For any new guide, research specifically for the current league (v0.4+) to catch rebalances or new unique tablets.
-- **No Fluff**: Skip introductions or conclusions. Go straight to the technical data.
+- **Research First**: For any new guide, research specifically for the current league (v0.4+).
+- **Directory Specifics**: Refer to the specific rule files in \`.cursor/rules/\` for directory-specific logic.
