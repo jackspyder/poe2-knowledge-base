@@ -8,7 +8,9 @@ For a 10-map rotation. Aim for high Omen spawn rates and reroll count.
 2.  **Reroll/Omen Tablet**: Reroll cost reduction + Omen chance. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9zna9Y0yfK)
 3.  **Stacker Tablet**: Focus +2/3 Rerolls. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/6zj29q9XFG)
 
-**Priority Modifiers (0.3.1+):**
+**v0.4 Tablet Change**: Precursor tablets are now applied directly to maps in the Map Device; tower range/overlap is no longer required.
+
+**Priority Modifiers (0.4+):**
 - **Rare Monsters**: 35-40% (Up to 120% total)
 - **Magic Monsters (Teeming)**: 60-70%
 - **Item Rarity**: 25-30%
@@ -50,15 +52,17 @@ Switch to this setup once high-value items are deferred. [Trade Link](https://ww
 
 ## 4. T15+ MAP SELECTION
 
+**v0.4 Density Note**: Open maps (Savannah, Steppe) received a ~10% density reduction vs. Indoor maps (Hive, Confluence) to balance clear speed.
+
 | Elite Layouts (Run) | Avoid (Dead Slots / Low Density) |
 | :--- | :--- |
-| **Willow** | Mesa |
-| **Sandspit** | Decay |
-| **Savannah** | Razed Fields |
-| **Wetlands** | Forge |
-| **Steppe** | Steaming Springs |
-| **Confluence** | Blooming Field |
-| **Hive** | |
+| **Hive** (Highest Density) | Mesa |
+| **Confluence** | Decay |
+| **Willow** | Razed Fields |
+| **Sandspit** | Forge |
+| **Savannah** | Steaming Springs |
+| **Steppe** | Blooming Field |
+| **Wetlands** | |
 
 ---
 

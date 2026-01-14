@@ -3,7 +3,9 @@
 ## 1. TABLET SETUP (Splinter Maxing)
 High-end Breach farming focuses on **Splinter Density** and **Hand Spawns**. Requires 3 tablet slots (6-mod T15 maps).
 
-### Priority Tablet Modifiers (0.3.1+)
+**v0.4 QoL**: Breach Splinters are now automatically collected and dropped in a single stack at the player's location when the Breach closes.
+
+### Priority Tablet Modifiers (0.4+)
 - **Additional Hands**: +3 Clasped Hands per Breach (Absolute priority).
 - **Splinter Quantity**: +75% Increased Quantity of Splinters dropped by monsters.
 - **Additional Breaches**: Chance for map to contain an additional Breach.

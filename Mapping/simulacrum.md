@@ -3,12 +3,14 @@
 ## 1. ACCESS & KEYS
 - **Entry Requirement**: 300 Simulacrum Splinters -> Assemble at Realmgate.
 - **Wave Count**: 15 Waves (difficulty spikes at Wave 10 and 15).
-- **Difficulty Scaling**: Atlas passives can scale wave difficulty to Level 4 for high-tier reward brackets.
+- **v0.4 Difficulty Scaling**: Waves now add 5% Delirious (down from 10%) per wave, resulting in a more manageable difficulty ramp.
 
 ---
 
 ## 2. THE SPLINTER LOOP (T15+)
 High-end splinter farming requires T15+ Waystones and a 3-tablet "Fog" setup.
+
+**v0.4 Splinter Buff**: Delirium splinter drop rates increased by 80% across all maps.
 
 ### Priority Tablet Modifiers
 - **Delirium Rewards**: +1 to reward bars (Scales splinters exponentially).
@@ -33,7 +35,7 @@ The Simulacrum is the exclusive source of the "Big Three" jewels:
 | **Voices** | Massive passive tree flexibility. | Mirror-tier if 1 or 3 small passives. |
 | **Megalomaniac** | 3 random Notable cluster jewel. | Extremely high for niche builds. |
 | **Split Personality** | Stats scale with distance from start. | Mandatory for stat-stackers. |
-| **Distilled Emotions** | Amulet/Waystone modification. | Steady high-liquidity income. |
+| **Liquid Emotion** | Amulet/Waystone modification. | Guaranteed from Boss waves in v0.4. |
 
 ---
 
@@ -45,4 +47,4 @@ The Simulacrum is the exclusive source of the "Big Three" jewels:
 ```
 
 ### Expert Tip: The Amulet Payoff
-Save high-tier **Distilled Emotions** for anointing unique amulets. Check the seasonal meta for which passive anoints are commanding the highest price (usually reservation or speed-based).
+Save high-tier **Liquid Emotion** for anointing unique amulets. Check the seasonal meta for which passive anoints are commanding the highest price (usually reservation or speed-based).

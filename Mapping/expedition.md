@@ -3,8 +3,10 @@
 ## 1. TABLET SETUP (Logbook Hunting)
 High-end Expedition is defined by **Logbook Velocity** and **Runic Monster Duplication**.
 
+**v0.4 Reward Buff**: Artifact drop rates doubled; Exotic Coinage increased by 50%.
+
 ### Unique Tablet: Forgotten by Time
-- **Implicit**: Applies Expedition to 12-18 maps in tower range.
+- **Implicit**: Applies Expedition to 12-18 maps. (No tower required in v0.4).
 - **Explicit 1**: Monsters spawn at 50% life (Speed clear).
 - **Explicit 2**: **Runic Monsters are duplicated** (Absolute priority for high-end).
 
