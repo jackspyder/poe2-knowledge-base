@@ -5,7 +5,7 @@ Expert strategies for early-league capital growth in v0.4+.
 ## 1. THE DIVINE/CHAOS "HEDGE"
 - **Timing**: Days 1-4.
 - **Strategy**: Convert all raw **Exalted Orbs** into **Chaos Orbs** and **Divine Orbs** immediately. 
-- **Reasoning**: Exalts are the base drop in T15+ maps. Holding them causes you to lose purchasing power as the exchange rate for Chaos (currently ~7.4:1) and Divines (currently ~38:1) climbs rapidly.
+- **Reasoning**: Exalts are the base drop in T15+ maps. Holding them causes you to lose purchasing power as the exchange rate for Chaos (currently ~7.4:1) and Divines (currently **~380:1**) climbs rapidly.
 
 ## 2. BULK FRAGMENT ACCUMULATION
 - **Targets**: **Simulacrum/Ritual Splinters** and **Logbooks**.

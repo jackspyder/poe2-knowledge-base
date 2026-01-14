@@ -7,7 +7,7 @@ In the v0.4 meta, **Divine Orbs** are the premier high-end asset, **Chaos Orbs**
 | :--- | :--- | :--- | :--- | :--- |
 | **Day 1-3** | 3:1 - 5:1 | 15:1 - 25:1 | ~5:1 | Initial scarcity phase. |
 | **Week 1** | 6:1 - 8:1 | 30:1 - 45:1 | ~6:1 | Exalt supply stabilizes as common drop. |
-| **Current (Expert)** | **7.4 : 1** | **38 : 1** | **~5.1 : 1** | Mature market; focus on Divine/Chaos. |
+| **Current (Expert)** | **7.4 : 1** | **380 : 1** | **~51 : 1** | Mature market; focus on Divine/Chaos. |
 
 ---
 
