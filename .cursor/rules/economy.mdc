@@ -6,7 +6,7 @@ globs: Economy/*.md
 # Economy & Currency Rules
 
 ## Market Dynamics
-- **Currency Reference**: Use **Exalted Orbs** as the primary high-end trade currency.
+- **Currency Reference**: Use **Divine Orbs** as the primary high-end trade currency.
 - **Bulk Pricing**: Strategies should focus on bulk selling for premium rates.
 - **Seasonal Flipping**: Include notes on seasonal price shifts (early league vs mid league).
 
