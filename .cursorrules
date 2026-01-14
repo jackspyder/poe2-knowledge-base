@@ -1,0 +1,19 @@
+# Path of Exile 2 Knowledge Base Rules (Fate of the Vaal / v0.4+)
+
+## Core Context
+- **Game**: Path of Exile 2 (PoE2).
+- **Current League**: **Fate of the Vaal** (Version 0.4+).
+- **Seasonal Cycle**: Game updates every 4 months. Always prioritize research from the last 3-4 months.
+- **Target Audience**: **Expert Players**. Assume the reader knows all basic mechanics, currency, and map slotting rules.
+
+## Documentation Style
+- **Concise & Focused**: Prune all "how-to" basic guides. Provide dense, high-level reference data (tables, regex, tiers).
+- **End-Game Only**: All strategies must focus on **T15+ farming** and high-tier returns.
+- **Expert Terminology**: Use technical jargon (e.g., "juice", "fishing", "Tribute Engine", "Logbook Velocity").
+- **Visual Scannability**: Use Markdown tables for map lists, boss drops, and tablet priorities. 1 row per item in tables.
+- **Actionable Tools**: Always provide **Stash Tab Regex** for high-end filtering.
+
+## Technical Requirements
+- **Absolute Paths**: Always use absolute paths for file operations.
+- **Research First**: For any new guide, research specifically for the current league (v0.4+) to catch rebalances or new unique tablets.
+- **No Fluff**: Skip introductions or conclusions. Go straight to the technical data.
