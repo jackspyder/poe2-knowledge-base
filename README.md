@@ -13,6 +13,8 @@ Detailed T15+ farming loops, tablet synergies, and Atlas configurations.
 | [Expedition](/Mapping/expedition.md) | Logbook Hunting & Runic Duplication | Logbook Velocity |
 | [Simulacrum](/Mapping/simulacrum.md) | Delirium Splinter & Jewel Farming | Voices/Key Scaling |
 | [Abyss](/Mapping/abyss.md) | Stygian Spires & Desecrated Currency | Spire Spawns |
+| [Progression](/Mapping/progression.md) | T1-T15 Rush & Atlas Passive Points | Nexus/Tower Efficiency |
+| [Endgame Setup](/Mapping/endgame-setup.md) | The Grand Project & Pinnacle Access | Strategy & Tools |
 
 ---
 
