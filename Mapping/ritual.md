@@ -5,7 +5,7 @@
 ### Fishing Phase (The Hunt)
 For a 10-map rotation. Aim for high Omen spawn rates and reroll count.
 1.  **Freedom of Faith (Unique)**: Mandatory for reroll scaling. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9GJQPR4tK)
-2.  **Reroll/Omen Tablet**: Reroll cost reduction + Omen chance. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9zna9Y0yfK)
+2.  **Reroll/defer cost**: Reroll cost reduction + defer cost reduction. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/9zna9Y0yfK)
 3.  **Stacker Tablet**: Focus +2/3 Rerolls. [Trade Link](https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal/6zj29q9XFG)
 
 **v0.4+ Access**: King in the Mists now uses **Ritual Splinters**.
