@@ -2,7 +2,7 @@
 
 Source capture: [Content Update 0.5.0 - Return of the Ancients](../poe2-0.5.0-return-of-the-ancients.md)
 
-This folder contains patch-specific extracted views. The source capture remains the authoritative text; these files reorganize entries by build, crafting, and progression concerns.
+This folder contains patch-specific extracted views. The source capture remains the authoritative text and currently includes amendments through 26/5/26; these files reorganize entries by build, crafting, and progression concerns.
 
 ## Extracted Views
 

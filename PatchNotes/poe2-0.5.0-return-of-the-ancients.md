@@ -57,8 +57,8 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Added 15 Meta crafting runes that can be crafted from remnants.
 - Added 60+ runes that can be created by destroying a unique to make a rune that gains some of its properties.
 - Added 15+ Runic Ward Runes that can be crafted from Remnants, adding or modifying properties related to Runic Ward.
-- Added 21 Kalguuran Skills that can be crafted from Remnants: Animus Exchange, Animus Splinters, Bitter Dead, Conductive Runes, Detonate Living, Eternal March, Explosive Transmutation, Fragments of the Past, Frostflame Nova, Grim Pillars, Hollow Shell, Leylines, Powered by Verisium, Refutation, Remnants of Kalguur, Repulsion, Runic Reprieve, Skyfall, Triskelion Cascade, Verisium Manifestations, and Voltaic Barrier.
-- Added 8 Kalguuran Supports that can be crafted from remnants: Concussive Runes, Fist of Kalguur, Healing Runes, Kalguuran Conviction, Runeforged Blades, Runic Extraction, Runic Infusion and Scouring Flame.
+- Added 23 Kalguuran Skills that can be crafted from Remnants: Animus Exchange, Animus Splinters, Bitter Dead, Conductive Runes, Detonate Living, Eternal March, Explosive Transmutation, Fragments of the Past, Frostflame Nova, Grim Pillars, Hollow Shell, Leylines, Powered by Verisium, Refutation, Remnants of Kalguur, Repulsion, Runic Reprieve, Skyfall, Triskelion Cascade, Verisium Manifestations, and Voltaic Barrier.
+- Added 7 Kalguuran Supports that can be crafted from remnants: Concussive Runes, Fist of Kalguur, Healing Runes, Runeforged Blades, Runic Extraction, Runic Infusion and Scouring Flame.
 - Expedition Remnants have been changed into the Remnants from The Runes of Aldur league.
 - New Endgame Story: Set out on an expedition with Farrow to explore the Ocean as you investigate the tombs of fallen Kalguurans and challenge them to earn remarkable rewards. Seek out the crater of a fallen star, a meteor of pure Verisium, from which you hope to forge objects of immense power… if you can defeat what awaits you there.
 - There is now a hub area "The Ruins of Kingsmarch" for The Runes of Aldur to the south-east of your starting location on the Atlas.
@@ -213,11 +213,17 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - The Forgotten By Time Expedition Precursor Tablet has been temporarily disabled from dropping.
 - Expedition Explosives now wait to explode until most of the monsters unearthed by the previous Explosive have been killed.
 - You can now use currency from your stash to purchase items from Expedition Vendors.
+- The following items have been removed from the Currency Exchange: Black Scythe Artifact, Broken Circle Artifact, Exotic Coinage, Order Artifact, Petition Splinter, Runic Splinter, and Sun Artifact.
+- The following items only appear on the Currency Exchange in Standard Leagues: Omen of Corruption, Omen of Homogenising Coronation, and Omen of Homogenising Exaltation.
+- Legacy Expedition Currency can now be sold to vendors for Gold.
+- Rog, Gwennen, Dannig and Tujen in existing hideouts have been converted to non-interactable doodads. Speaking to these NPCs will no longer invite them to your hideout.
+- You can use the '/reclaimexpeditioninventories' chat command to reclaim any items left in deprecated inventories, including those of the Recombinator and Expedition Vendors.
 
 ## Other Endgame Changes
 - With the introduction of the new Endgame storyline, the Atlas has been reset. Your existing tablets and waystones will continue to work so you can continue your progression as normal, but in order to gain points for the Atlas Tree you will need to do the Origins of Divinity storyline.
 - Added support for searching to the Endgame Atlas Map.
 - You can now zoom out slightly further on the Atlas screen.
+- You can now click the Town on the Atlas to travel there via waypoint, or Ctrl-Click the quick travel button at the side of the Atlas screen.
 - There are now two versions of each pinnacle boss, the Quest version and the Infinite Farm version. As such Primary, Secondary and Tertiary Calamity Fragments can no longer be obtained.
 - Tablets of the same type may now be used together to increase the amount of the league content that is spawned. The specifics of this are different for each content type. In some cases adding multiple tablets will increase the size of a single encounter, while in other cases it will increase the number of encounters spawned.
 - Each empty tablet slot now contributes to the amount of random non-tablet spawned league content in the area. This means that if all tablets slots are full, you will only see the league content from the tablets you are using. The intent of this change is to make sure that you do not need to complete the atlas trees for leagues you do not intend to run.
@@ -226,6 +232,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Some items and content now require you to specialise in them through Atlas Passive Skills including Exceptional Items, Fracturing Orbs, Basic and Overseer precursor tablets.
 - Tablets can no longer be used on maps that cannot have extra content (such as Unique Maps).
 - League-specific Tablets no longer drop from non-Map areas, such as Simulacrum, Abyssal Depths or the Twisted Domain.
+- The Unforeseen Consequences Unique Tablet no longer has 4-6 additional Rare Monsters are spawned from Abysses in Map. Existing versions of this item can be made worse with a Divine Orb.
 - Lowered the base chances for Essences, Azmeri Spirits, Shrines, Strongboxes, Summoning Circles and Rogue Exiles appearing in Maps somewhat due to the much larger increase now available on the Atlas Tree.
 - Atlas Passives that reference maps with Powerful Map Bosses now work with Overseer Precursor Tablets and other sources of Powerful Map Bosses.
 - Adjusted the values of general Precursor Tablet Modfiiers to be similar to the same type bonuses granted by Waystone Modifiers. Also reduced the roll variance of these Modifiers.
@@ -245,6 +252,10 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Halved the Damage as Extra buffs granted from the following shrines: Freezing Shrine, Gloom Shrine, Meteoric Shrine, and Tempest Shrine.
 - Completion of fixed locations on the Atlas is now shared with party members.
 - With the addition of more varied content on the Atlas Map the size of content indicators has been increased 50%.
+- The base duration of all Shrines is now 45 seconds.
+- The "Contains Identified Items" modifier on Strongboxes can no longer roll.
+- Tablet Modifiers that are no longer functional have been disabled, such as Breaches in Map contain additional Clasped Hands, or Delirium Encounters in affected Map have a chance to generate an additional Reward.
+- Many Act 4 bosses can now appear in the Stone Circle Map mechanic.
 - Waystones have received new 2D art.
 
 ## Campaign Replayability
@@ -263,6 +274,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - There is now a limit on the maximum amount of damage a hit can be considered to deal for Leech. Hits that deal less than 40,000 total damage are unaffected, but if a hit would deal more than 40,000 total damage, it is treated as dealing only 40,000 damage for purposes of Leech calculation. The values of each damage type in the hit are scaled down evenly to reach this limit. This means that extremely high-damage hits stop improving Leech past a certain point, but increasing your leech percentage will always increase the amount of the resource you are gaining.
 - The formula for chance to Deflect has been adjusted to provide better scaling with investment into Deflection Rating, with a cap of 95% chance to Deflect (similar to chance to Evade being capped at 95%).
 - The new chance to Deflect is = 150*(1 - A/(A + 0.12*D)), where A = attacker accuracy rating, and D = defender deflection rating. This makes for a linear path, that gets rewarded at higher investments.
+- Modifiers that applies to Allies in your Presence, such as those on Sceptres and the Grip of Kulemak Unique Ring, no longer stack in a party if multiple party members have Modifiers of the same type. This change does not affect the "Allies in your Presence deal 50% increased Damage" Modifier from the Leer Cast Unique Helmet.
 - Parry, Shield Block and Resonating Shield no longer delay Heavy Stun buildup from decaying longer than expected.
 - Melee Attacks can now only apply Splash Damage once per damaging area. Some Attacks create multiple damaging areas during use. For example, Whirling Assault creates multiple damaging areas around you as you move.
 - When Minions are removed due to resources changing (such as weapon swapping), younger (newer) Minions are now prioritised for removal over older Minions to avoid wasting Minion cooldown abilities unnecessarily.
@@ -281,6 +293,8 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - New Lineage Support: Esh's Prowess
 - New Lineage Support: Helbrym's Hide
 - New Lineage Support: Her Declaration
+- New Lineage Support: Olroth's Conviction.
+- New Lineage Support: Olroth's Hubris.
 - New Lineage Support: Medved's Felling
 - New Lineage Support: Mórrigan's Insight
 - New Lineage Support: Prototype Seventeen
@@ -341,10 +355,11 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Added the new Minion Splash and Minion Splash II Strength Support Gems. These Support Skills which create Minions which Strike, causing those Minions' Strikes to have Melee Splash.
 - The Fragment Stash Tab is now available for use in Path of Exile 2. It can hold your Fragments (including Breach Splinters, Simulacrums, Audience with the King), Inscribed Ultimatums and Baryas, as well as Tablets. If you previously purchased one in Path of Exile, it will automatically be made available to you once the 0.5.0 patch is deployed. For those without a Fragment Stash Tab, you will be able to find this in the Stash Tabs section of the microtransaction store after 0.5.0 goes live.
 - Added support for Build Guides. Community creators who write build guides can now create .build files for players to download. When selected in the game client, these will show you everything you need to know for that build, including Passive Skills to allocate, which Ascendancy Passive Skills to take, Skill Gems to equip, as well as recommendations for Support Gems.
-- Added the ability to quickly search the trade market with an item you have. Shift-Alt Clicking on an item will populate the filters for searching the trade market so you can see the current prices. For Rare items, you can enable and disable each modifier to easily determine the effect each one has on an item's price.
+- Added the ability to quickly search the trade market with an item you have. Shift-Alt Clicking on an item will populate the filters for searching the trade market so you can see the current prices. For Rare items, you can enable and disable each modifier to easily determine the effect each one has on an item's price. For controller users, you can use this feature by holding Y or Triangle on the item.
 - In party-play, you can now quickly revive any fallen party members after defeating the Boss.
 - You can now skip dialogue sequences with NPCs by pressing Escape.
 - Added a Reforging Bench to the entrance of the Trial of the Sekhemas.
+- Added 3D art for Rise of the Phoenix.
 - Continued to incrementally improve the sound, art, effects and environments.
 
 ## Ascendancy Changes
@@ -383,6 +398,10 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Added 19 new Companion-themed Passive Skills to the Passive Tree.
 - Added 9 new Life Recoup Speed Passive Skills to the Passive Tree.
 - Added a new Archon of Undeath cluster to the Witch/Sorceress area of the Passive Tree.
+- Added new Armour applies to Elemental Damage and faster start of Energy Shield Recharge clusters to the Passive Skill Tree.
+- Added new hybrid Armour applies to Elemental Damage and Deflection clusters to the Passive Skill Tree.
+- Added new hybrid Deflection and Faster Start of Energy Shield Recharge clusters to the Passive Skill Tree.
+- Added new Armour and Evasion clusters to the Passive Skill Tree.
 - The Ancestral Bond Keystone Passive Skill now causes placing totems to have no cost and not require consuming charges to place. It still causes totems to reserve 75 spirit each, and now doubles totem limit instead of removing it completely.
 - The Trusted Kinship Keystone Passive Skill now grants 30% more Reservation Efficiency of Companion Skills, and 20% less Reservation Efficiency of non-Companion Skills. It no longer provides You have 30% less Defences, or Companions have +1 to each Defence for every 2 of that Defence you have.
 - The Vaal Pact Keystone Passive Skill now grants 50% more amount of Life Leeched, 67% less Life Leech speed, Cannot Recover Life other than from Leech, and Life Leech effects are not removed when Unreserved Life is Filled. It no longer provides Life Leech is Instant, or Cannot use Life Flasks.
@@ -391,6 +410,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - The Stormcharged and Breaking Point cluster no longer connects to a Jewel socket.
 - The Adamant Recovery Notable Passive Skill has been replaced by Fortified Aegis, which grants 100% increased Armour, Evasion and Energy Shield from Equipped Shield.
 - The Arcane Mixtures Notable Passive Skill now grants 10% increased Cast Speed if you have used a Mana Flask recently, instead of 25% increased Energy Shield Recharge Rate.
+- The Backup Plan Notable Passive Skill now provides 20% increased Armour and Evasion, Evasion Rating if you have been hit recently is now 40% (previously 50%), and Increased Armour if you haven't been hit recently is now 40% (previously 50%).
 - The Bastion of the Forest Notable Passive Skill now grants 10% faster start of Energy Shield Recharge (previously 15%).
 - The Casting Cascade Notable Passive Skill now grants 6% increased Cast Speed for each different Spell you've Cast in the last eight seconds (previously four).
 - The Chakra of Breathing Notable Passive Skill now grants 20% faster start of Energy Shield Recharge instead of 1% increased Energy Shield Recharge Rate per 4 Dexterity.
@@ -402,6 +422,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - The Critical Overload Notable Passive Skill now provides 15% increased Critical Spell Damage Bonus (previously 15% increased Spell Damage if you've dealt a Critical Hit Recently).
 - The Cunning Fox Notable Passive Skill has been replaced with The Quick Fox, which grants 20% increased Deflection Rating while moving. The small all Attribute Passives prior to the Notable now grant 20% increased Evasion Rating while moving.
 - The Deadly Force Notable Passive Skill now provides 15% increased Critical Hit Chance (previously 10%), and 15% increased Damage if you've dealt a Critical Hit in the past 8 seconds (previously 25%).
+- The Defiance Notable Passive Skill now grants 20% increased Armour and Evasion Rating, and now grants 80% increased Armour and Evasion Rating when on Low Life (previously 120%).
 - The Dependable Ward Notable Passive Skill now grants +8% to Chaos Resistance, and 12% faster start of Energy Shield Recharge (previously 25%).
 - The Devoted Protector Notable Passive Skill now grants 10% faster start of Energy Shield Recharge (previously 15%).
 - The Echoing Pulse Notable Passive Skill now grants Echoed Spells have 25% increased Area of Effect. It no longer grants Final Repeat of Spells has 30% increased Area of Effect, which did not function.
@@ -413,6 +434,8 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - The Fortifying Blood Notable Passive Skill now grants 15% increased amount of Life Leeched (previously 20%).
 - The Goring Notable Passive Skill no longer grants 40% increased Physical Damage, it now grants 3% increased Maximum Life and 20% increased amount of Life Leeched (previously 3% reduced Maximum Life and 30% increased amount of Life Leeched).
 - The Immortal Infamy Notable Passive Skill now grants 6% increased Life Recovery Rate instead of 10% increased Energy Shield Recharge Rate.
+- The Insulated Treads and Strong Chin Notable Passive Skills now grant 25% increased Armour and Evasion in addition to their current effects.
+- The Iron Slippers Notable Passive Skill now provides 2 Armour per 1 Energy Shield on equipped Boots (previously 3).
 - The Lifelong Friend and Nurturing Guardian Notable Passive Skills have swapped positions.
 - The Mystic Stance Notable Passive Skill now grants 12% faster start of Energy Shield Recharge (previously 30%).
 - The Patient Barrier Notable Passive Skill now grants 50% increased Maximum Energy Shield (previously 60%).
@@ -423,11 +446,15 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - The Shimmering Notable Passive Skill now grants 10% faster start of Energy Shield Recharge, and 20% increased Evasion if you have been hit recently. It no longer grants 20% increased Energy Shield Recovery Rate if you haven't been Hit Recently.
 - The Staggering Palm Notable Passive Skill now provides 25% increased Physical Damage (previously 20%), and now provides 10% chance to Daze instead of 20% increased Critical Damage Bonus.
 - The Stormcharged Notable Passive Skill now provides Damage Penetrates 8% of Enemy Elemental Resistances and 5% increased Attack and Cast Speed with Elemental Skills. It no longer provides 15% increased Critical Hit Chance or 40% increased Elemental Damage if you've dealt a Critical Hit Recently.
+- The Subterfuge Mask Notable Passive Skill now grants 1 Evasion per 1 Energy Shield on equipped Helmet (previously 2).
 - The Tempered Mind Notable Passive Skill now provides 15% increased effect of Fully Broken Armour (previously 20% increased Critical Damage Bonus).
+- The Tolerant Equipment Notable Passive Skill now grants 15% increased Armour and Evasion.
 - The Voracious Notable Passive Skill no longer grants 20% of Life Leech is Instant, it now grants 15% increased Attack Speed while Leeching.
 - The Wide Barrier Notable Passive Skill now grants 30% increased Block chance and 20% reduced Armour (previously 25% reduced Defences).
+- The Wild Cat Notable Passive Skill now provides 12% Evasion as Deflection Rating (previously 10%).
 - The Wyvern's Breath Notable Passive Skill has been updated and now provides 40% increased Elemental Ailment Application if you have Shapeshifted to an Animal form Recently. This now also applies to Freeze Buildup, but it is otherwise identical.
 - The first two small Spell Damage Passive Skills at the starting area of the Passive Tree for the Witch and Sorceress now provide 10% increased Spell Damage (previously 8%).
+- Small Passives granting Gain Deflection Rating equal to a percentage of Evasion now have values of 8% (previously 6%).
 - Small Passive Skills that grant faster start of Energy Shield Recharge now have values of 6% (previously 15%).
 - Small Passive Skills that granted Energy Shield Recharge Rate have been removed from the Passive Skill Tree and replaced by faster start of Energy Shield Recharge at a lower value.
 - Small Passive Skills granting 10% increased amount of Life Leeched now have values of 8%.
@@ -443,6 +470,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - All Command Skills now have a 50% movement speed penalty during skill use (previously 70%).
 - Align Fate (granted by the Oracle's Fateful Vision Notable Passive): Now has "Modifiers to Cooldown Recovery Rate also apply to visage appearance frequency".
 - Ancestral Warrior Totem: No longer has a hidden 0.6 second delay between skill uses. Instead, this delay is now 50% of the skill's attack time and is described accordingly on the skill.
+- Barkskin: Now provides 50% of Energy Shield Lost as Armour at level 8 (previously 32%), scaling up to 62% at level 20 (previously 44%)
 - Bonestorm: No longer has the Sustained tag.
 - Boneshatter: Quality now grants 0-20% increased Attack Speed (previously 0-30% increased Attack Speed).
 - Comet: Now deals 212 to 318 Cold Damage at Gem level 11 (previously 223 to 335), scaling up to 787 to 1181 damage at Gem level 20 (previously 829 to 1243). Fire-Infused Comet now deals 212 to 318 Fire and Cold Damage at Gem level 11 (previously 279 to 418), scaling to 787 to 1181 Fire and Cold Damage at Gem level 20 (previously 1036 to 1554).
@@ -507,6 +535,8 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Infernal Legion II: Now grants Minions from Supported Skills take 10% of their maximum Life as Fire Damage per second (previously 20%), and Minions from Supported Skills Ignite Enemies within a radius of 2 metres as though dealing Base Fire Damage equal to 10% of Minion's Maximum Life (previously 20%). Now additionally grants Minions from Supported Skills have +20% to Fire Resistance.
 - Infernal Legion III: Can no longer be obtained.
 - Living Lightning: No longer replaces minions when summoning a new one while already at maximum number of minions.
+- Mark of Siphoning: Now causes Enemies Marked by Supported Skills cause you to Leech Mana equal to 8% of Physical Attack Damage.
+- Mark of Siphoning II: Now causes Enemies Marked by Supported Skills cause you to Leech Mana equal to 8% of Physical Attack Damage, and Enemies Marked by Supported Skills cause you to Leech Life equal to 8% of Physical Attack Damage.
 - Morgana's Tempest: Can now support any Storm Skill under any conditions, rather than only spells you use yourself.
 - Overabundance III: Now properly describes that it cannot support Persistent Skills.
 - Overextend: Can no longer be obtained, existing items are unaffected by this change.
@@ -535,8 +565,9 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - The Elevore Unique Helmet now grants Charms gain 1 Charge per second (previously 0.5), and now provides +1-2 Charm Slots (previously +1). Existing items can be buffed using a Divine Orb.
 - The Eshtera's Path Unique Ring no longer has Cold Resistance is unaffected by Area Penalties. It now has +5-10% to Fire and Cold Resistance per Equipped Item with a Lightning Resistance Modifier. Existing items are not affected by this change.
 - The Glowswarm Unique Ring now has Using a Mana Flask grants Guard equal to 100% of the Flask's Recovery amount for 4 seconds. Existing items are not affected by this change.
+- The Gravebind Unique Gloves now have 15-20% Increased Rarity of Items Found, and Your other Modifiers to Rarity of Items found do not apply.
 - The Hollow Mask Unique Helmet now grants the Wildwood's Gifts Skill, where Azmerian spirits offer guidance, allowing you to see nearby Ancient Blooms. It also now has Remnants you create affect Allies in your Presence as well as you when collected, and 80-100% increased Reservation Efficiency of Remnant Skills.
-- The Husk of Dreams Unique Body Armour has been renamed to Reverie. It no longer has 20-30% increased Flash Charges gained, or 50% less Flask Charges used. It now grants the Rite of Restoration Skill, and has Non-Unique Life Flasks apply their effects constantly. It also now has Cannot use Life Flasks, Recovery from Life Flasks cannot be instant, Recovery from Life Flasks cannot be applied to anything other than you, as well as 40-60% less Life Flask Recovery. Existing versions of this item cannot obtain these new modifiers.
+- The Husk of Dreams Unique Body Armour has been renamed to Reverie. It no longer has 20-30% increased Flask Charges gained, or 50% less Flask Charges used. It now grants the Rite of Restoration Skill, and has Non-Unique Life Flasks apply their effects constantly. It also now has Cannot use Life Flasks, Recovery from Life Flasks cannot be instant, Recovery from Life Flasks cannot be applied to anything other than you, as well as 40-60% less Life Flask Recovery. Existing versions of this item cannot obtain these new modifiers.
 - The Hyrri's Ire Unique Body Armour now has 100-150% Increased Evasion Rating (previously 200-250%), and Gain 10-20% of Damage as Extra Cold Damage (previously 15-25%). Existing versions of this Unique can be made worse with a Divine Orb.
 - The Keeper of the Arc Unique Helmet now has 240-340% increased Armour and Energy Shield (previously 150-250%). Existing items can be updated to the new values using a Divine Orb.
 - The Levinstone Unique Ring no longer has +1 to Level of all Lightning Skills. It now has Lightning Skills Chain +1 times.
@@ -554,6 +585,8 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - The Zerphi's Genesis Unique Belt no longer has 10-30% increased Charm Charges used. It now has 50% of Charges consumed by used Life Flasks are granted to your Charms, Skills from Corrupted Gems have 15-25% increased Cost Efficiency during any Flask Effect, and 25-50% increased Corrupted Charms Effect Duration, in addition to its other modifiers.
 
 ## Item Changes
+- Lesser, Greater and Perfect Jeweller's Orbs can now be used on items with skills on them to increase the number of sockets on the item's granted skills. Using a Jeweller's Orb on Items with multiple skills will affect all skills on that item.
+- All crafted modifiers are now guaranteed, but items can only have 1 crafted modifier at a time. Desecrated modifiers no longer count as crafted modifiers, but items are limited to 1 Desecrated modifier.
 - Greater and Perfect currencies have been made somewhat rarer, with Transmutation and Augmentation being made significantly rarer.
 - Greater Orbs of Transmutation and Greater Orbs of Augmentation now have a minimum Modifier Level of 44 (previously 55), making them more accessible. They can now begin dropping in Act 4.
 - Divine Orbs are now more common.
@@ -658,6 +691,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - You can no longer enter Plunder's Point until you have turned in all 4 Map Pieces in Kingsmarch.
 - You now receive a Greater Mind Rune in the Halls of the Dead when interacting with Navali (previously a Lesser Mind Rune).
 - You no longer need to visit the Halani Gates in order to access Traitor's Passage if you have already freed Risu.
+- Improved the rewards offered for completing the Tribal Medicine quest. Happy shark hunting.
 
 ## User Interface Changes
 - Added accessibility settings to increase the size of popups. These can be found in the UI section of the Options panel.
@@ -692,6 +726,8 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Enabled all of the remaining Portrait Frame microtransactions for use in Path of Exile 2.
 - Enabled the existing Originator's and Awakener's Character Effect microtransactions for use in Path of Exile 2.
 - Enabled the Something Fishy, Trapped Wisps, and Not the Bees! Chest Extra Effect microtransactions for use in Path of Exile 2.
+- Enabled the existing Originator's Weapon Effect for use in Path of Exile 2.
+- Enabled the existing Celestial Emperor Rare Finisher Effect microtransaction for use in Path of Exile 2.
 - Enabled the existing Anchor Drop Rare Finisher Effect microtransaction for use in Path of Exile 2.
 - Enabled the existing Torture Mace microtransaction for use in Path of Exile 2.
 - Enabled the existing Mirage Gauntlet microtransaction for use in Path of Exile 2.
@@ -716,6 +752,21 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Fixed some cases where some stats giving chances for additional projectiles didn't apply to skills like rain of arrows that use the number of projectiles to determine a number of things to place.
 - Fixed some cases where some stats for additional chains didn't apply to some beam skills.
 - Fixed a bug where the benefits Quality provided to Comet were not functioning.
+- Fixed a bug where Arc would gain it's Lightning Infused stats when not spending a Lightning Infusion.
+- Fixed a bug that could cause support gems that apply to "Skills you use yourself" to apply to skills being used by clones of you, such as Mirage Archer or Feral Invocation, or to minions you summon.
+- Fixed several bugs that prevented support gems from supporting Unearth.
+- Fixed various bugs that allowed disabled flasks to still be used by some effects.
+- Fixed various bugs with bleed modifiers not working on bleeds inflicted by Spell Hits.
+- Fixed a bug that caused Bone Constructs summoned by Unearth to stand still when summoned by a totem.
+- Fixed a bug that caused the Dialla's Desire Lineage Support Gem to still function when it was socketed but disabled.
+- Fixed a bug where Fire Skills used by Spell Totems could generate Raging Spirits.
+- Fixed a bug where Fire Skills used by Visages from Align Fate could generate Raging Spirits.
+- Fixed a bug where the modifier "Lord's" for Increased Spirit had overlapping values with the next tier of that modifier. This modifier now provides 20-26% increased Spririt (previously 30 to 36).
+- Fixed a bug where Chaos Inoculation overriding maximum life to one incorrectly affected calculation of stun and ailment thresholds for the player as well. The most notable manifestation of this was characters with the Chaos Inoculation Keystone Passive Skill allocated with some kinds of Stun Threshold modifiers becoming immune to Heavy Stuns.
+- Fixed a bug where having the Eternal Youth allocated while having 0 Energy Shield would result in your Life Regeneration ignoring the Energy Shield Regeneration delay.
+- Fixed a bug where the increase to Critical Damage Bonus from Gore Spike was not displayed in the skill stats panel.
+- Fixed a bug that caused queued skills to be unable to update their target.
+- Fixed multiple instances in which Killing Palm and Staggering Palm's additional dashes would fail to hit their target.
 - Fixed a bug where Devour and Lightning Warp were able to devour or explode some Corpses they shouldn't.
 - Fixed a bug where Poison Spores Support did not have appropriate vendor and asynchronous trade prices.
 - Fixed a bug where Burning Inscription Support would create ignited ground around a monster instead of on top of the Runic Inscription.
@@ -752,6 +803,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Fixed a bug where channelled skills could not be interrupted by another channelled skill.
 - Fixed a bug where Abyss Precursor Tablets would add 1 additional Abyss each, instead of just enabling Abyss spawning.
 - Fixed a bug where negative Toughness did not apply more damage taken to the target. Now negative values of Toughness will apply an equal amount of More Damage Taken. Effectively, each 100% of toughness halves the damage a monster takes, and each -100% toughness doubles the damage a monster takes.
+- Fixed an issue where some of Arbiter of Ash's projectiles would turn invisible if they were created too far from the player.
 - Fixed a bug that caused players to be unable to respawn if they died to Atziri, the Red Queen or Xipocado, the Royal Architect in party play.
 - Fixed a bug where bosses could occasionally push players out of their arena. Rude!
 - Fixed a bug which prevented The Iron Count from using his sword impale skill.
@@ -833,6 +885,104 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 We really hope you enjoy Path of Exile 2: Return of the Ancients. [Thanks for your support](https://pathofexile2.com/purchase)!
 
 ## Updates to Patch Notes
+
+### Updates for 26/5/26
+
+**Updated Patch Notes:**
+- Added 7 Kalguuran Supports that can be crafted from remnants: Concussive Runes, Fist of Kalguur, Healing Runes, Runeforged Blades, Runic Extraction, Runic Infusion and Scouring Flame.
+- Added the ability to quickly search the trade market with an item you have. Shift-Alt Clicking on an item will populate the filters for searching the trade market so you can see the current prices. For Rare items, you can enable and disable each modifier to easily determine the effect each one has on an item's price. For controller users, you can use this feature by holding Y or Triangle on the item.
+
+**New Patch Notes:**
+- You can use the '/reclaimexpeditioninventories' chat command to reclaim any items left in deprecated inventories, including those of the Recombinator and Expedition Vendors.
+- You can now click the Town on the Atlas to travel there via waypoint, or Ctrl-Click the quick travel button at the side of the Atlas screen.
+- The Unforeseen Consequences Unique Tablet no longer has 4-6 additional Rare Monsters are spawned from Abysses in Map. Existing versions of this item can be made worse with a Divine Orb.
+- Many Act 4 bosses can now appear in the Stone Circle Map mechanic.
+- Modifiers that applies to Allies in your Presence, such as those on Sceptres and the Grip of Kulemak Unique Ring, no longer stack in a party if multiple party members have Modifiers of the same type. This change does not affect the "Allies in your Presence deal 50% increased Damage" Modifier from the Leer Cast Unique Helmet.
+- New Lineage Support: Olroth's Conviction.
+- Added 3D art for Rise of the Phoenix.
+- Added new Armour applies to Elemental Damage and faster start of Energy Shield Recharge clusters to the Passive Skill Tree.
+- Added new hybrid Armour applies to Elemental Damage and Deflection clusters to the Passive Skill Tree.
+- Added new hybrid Deflection and Faster Start of Energy Shield Recharge clusters to the Passive Skill Tree.
+- Added new Armour and Evasion clusters to the Passive Skill Tree.
+- The Backup Plan Notable Passive Skill now provides 20% increased Armour and Evasion, Evasion Rating if you have been hit recently is now 40% (previously 50%), and Increased Armour if you haven't been hit recently is now 40% (previously 50%).
+- The Defiance Notable Passive Skill now grants 20% increased Armour and Evasion Rating, and now grants 80% increased Armour and Evasion Rating when on Low Life (previously 120%).
+- The Insulated Treads and Strong Chin Notable Passive Skills now grant 25% increased Armour and Evasion in addition to their current effects.
+- The Iron Slippers Notable Passive Skill now provides 2 Armour per 1 Energy Shield on equipped Boots (previously 3).
+- The Subterfuge Mask Notable Passive Skill now grants 1 Evasion per 1 Energy Shield on equipped Helmet (previously 2).
+- The Tolerant Equipment Notable Passive Skill now grants 15% increased Armour and Evasion.
+- The Wild Cat Notable Passive Skill now provides 12% Evasion as Deflection Rating (previously 10%).
+- Small Passives granting Gain Deflection Rating equal to a percentage of Evasion now have values of 8% (previously 6%).
+- Barkskin: Now provides 50% of Energy Shield Lost as Armour at level 8 (previously 32%), scaling up to 62% at level 20 (previously 44%)
+- Mark of Siphoning: Now causes Enemies Marked by Supported Skills cause you to Leech Mana equal to 8% of Physical Attack Damage.
+- Mark of Siphoning II: Now causes Enemies Marked by Supported Skills cause you to Leech Mana equal to 8% of Physical Attack Damage, and Enemies Marked by Supported Skills cause you to Leech Life equal to 8% of Physical Attack Damage.
+- The Gravebind Unique Gloves now have 15-20% Increased Rarity of Items Found, and Your other Modifiers to Rarity of Items found do not apply.
+- Lesser, Greater and Perfect Jeweller's Orbs can now be used on items with skills on them to increase the number of sockets on the item's granted skills. Using a Jeweller's Orb on Items with multiple skills will affect all skills on that item.
+- Improved the rewards offered for completing the Tribal Medicine quest. Happy shark hunting.
+- Enabled the existing Originator's Weapon Effect for use in Path of Exile 2.
+- Enabled the existing Celestial Emperor Rare Finisher Effect microtransaction for use in Path of Exile 2.
+- Fixed a bug where Fire Skills used by Spell Totems could generate Raging Spirits.
+- Fixed a bug where Fire Skills used by Visages from Align Fate could generate Raging Spirits.
+- Fixed a bug where the modifier "Lord's" for Increased Spirit had overlapping values with the next tier of that modifier. This modifier now provides 20-26% increased Spririt (previously 30 to 36).
+- Fixed a bug where Chaos Inoculation overriding maximum life to one incorrectly affected calculation of stun and ailment thresholds for the player as well. The most notable manifestation of this was characters with the Chaos Inoculation Keystone Passive Skill allocated with some kinds of Stun Threshold modifiers becoming immune to Heavy Stuns.
+- Fixed a bug where having the Eternal Youth allocated while having 0 Energy Shield would result in your Life Regeneration ignoring the Energy Shield Regeneration delay.
+- Fixed a bug where the increase to Critical Damage Bonus from Gore Spike was not displayed in the skill stats panel.
+- Fixed a bug that caused queued skills to be unable to update their target.
+- Fixed multiple instances in which Killing Palm and Staggering Palm's additional dashes would fail to hit their target.
+- Fixed an issue where some of Arbiter of Ash's projectiles would turn invisible if they were created too far from the player.
+
+### Updates for 25/5/26
+
+**Updated Patch Notes:**
+- Added 21 Kalguuran Skills that can be crafted from Remnants: Animus Exchange, Animus Splinters, Bitter Dead, Conductive Runes, Detonate Living, Eternal March, Explosive Transmutation, Fragments of the Past, Frostflame Nova, Grim Pillars, Hollow Shell, Leylines, Powered by Verisium, Rain of Blades, Refutation, Remnants of Kalguur, Repulsion, Runic Reprieve, Skyfall, Triskelion Cascade, Verisium Manifestations, Voltaic Barrier, and Wardbound Minions.
+- The following items have been removed from the Currency Exchange: Black Scythe Artifact, Broken Circle Artifact, Exotic Coinage, Order Artifact, Petition Splinter, Runic Splinter, and Sun Artifact.
+- The following items only appear on the Currency Exchange in Standard Leagues: Omen of Corruption, Omen of Homogenising Coronation, and Omen of Homogenising Exaltation.
+- Legacy Expedition Currency can now be sold to vendors for Gold.
+- Rog, Gwennen, Dannig and Tujen in existing hideouts have been converted to non-interactable doodads. Speaking to these NPCs will no longer invite them to your hideout.
+- Existing Primary Calamity Fragments have been converted to Ancient Crisis Fragments.
+- Existing Secondary Calamity Fragments have been converted to Faded Crisis Fragments.
+- Existing Tertiary Calamity Fragments have been converted to Weathered Crisis Fragments.
+- Waystone Modifiers that added Damage to Monsters, Penetrated Player Elemental Resistances, or reduced the Players Maximum Resistances have had their values reduced across the board.
+- The Waystone Modifier that provided Extra Projectiles to Monsters has been disabled.
+- The base duration of all Shrines is now 45 seconds.
+- The "Contains Identified Items" modifier on Strongboxes can no longer roll.
+- Tablet Modifiers that are no longer functional have been disabled, such as Breaches in Map contain additional Clasped Hands, or Delirium Encounters in affected Map have a chance to generate an additional Reward.
+- Ignites that are reflected onto a player can no longer spread to other enemies from the player.
+- Culling strike thresholds are no longer lowered in party play for non-unique monsters. They are still lowered based on the number of players in the party for unique monsters.
+- New Lineage Support Gem, Olroth's Hubris.
+- Ice Nova: Is no longer able to originate from Frostbolt while cascading sideways.
+- Primal Strikes: Now has a minimum Gem level of 9 (previously 7). Tame Beast: Summoned Beasts now deal 40% more damage at Gem Level 9 scaling up to 84% at Gem Level 20. Now immediately summons newly Tamed Beasts if you have enough spirit. Now has a minimum Gem level of 7 (previously 9).
+- Spell Cascade: Is no longer limited to supporting spells you use yourself.
+- The Collapsing Horizon Unique Quarterstaff now grants 100% increased Elemental Damage (previously 100% increased Elemental Damage with Attacks).
+- The Idol of Uldurn Unique Amulet now also has 20-40% reduced Presence Area of Effect, and 10-15% increased Spirit.
+- The Road Warrior Unique Body Armour can no longer be obtained.
+- The Skills granted by the Unborn Lich Unique Staff have received the following changes: [li]His Foul Emergence now has a Mana Cost of 0 (previously 18-189 at gem levels 1-20) and a Cooldown Time of 8 seconds at all levels (previously 25-15.5 at Gem levels 1-20). Inflicted Wither now lasts 10 seconds (previously 8) and Withering Ground duration is now 8 seconds (previously 5).
+- His Scattering Calamity now has a Mana Cost of 0 (previously 3-37 at Gem levels 1-20).
+- His Vile Intrusion now has a Mana Cost of 0 (previously 8-83 at Gem levels 1-20). Now has 100% increased Impale Magnitude at all levels (previously 2-40% at Gem levels 1-20), and now inflicts 2 impales at Gem level 20 and 3 impales at Gem level 25 (previously 1 at all levels).
+- His Winnowing Flame now has a Cast Time of 0.7 seconds (previously 1 second) and has a Mana Cost of 0 (previously 6-68). Grisly Pyres triggered by Consuming Ignites now have a radius of 2 metres (previously 1.5 metres), deal 30% of the highest expected remaining Damage of the Consumed Ignites (previously 25%) and have a shorter delay before dealing its damage.
+- All crafted modifiers are now guaranteed, but items can only have 1 crafted modifier at a time. Desecrated modifiers no longer count as crafted modifiers, but items are limited to 1 Desecrated modifier.
+- The Quipolatl's Thesis Soul Core is now a random Skill that requires Glory which generates 50% of its maximum Glory when your Mark Activates when socketed in Helmets (previously 15%) When socketed in Gloves, it now grants Your Energy Shield Recharge starts when your Minions are Reformed (previously Each Runic Inscription from your Curse Skills causes you to Regenerate Mana per second equal to 10% of that Skill's Mana Cost). When socketed in a Body Armour, it now grants +75% of Armour also applies to Chaos Damage while on full Energy Shield (previously +50%).
+- The Guatelitzi's Thesis Soul Core now grants Gain Armour equal to 35% of Life Lost from Hits in the past 8 seconds when socketed in Helmets (previously 25%).
+- Modifiers on Gloves and Rings granting Leech a percentage of Physical Attack Damage as Life/Mana have been adjusted to roll at a lower level, and the first tiers have been removed.
+- The "of the Parasite" and "of the Thirsty" Suffix Modifiers modifier can no longer roll.
+- The "of the Locust" Suffix Modifier now rolls on Gloves, Rings and Martial Weapons from Level 21 (previously 38).
+- The "of the Remora" Suffix Modifier now rolls on Gloves, Rings and Martial Weapons from Level 38 (previously 54).
+- The "of the Lamprey" Suffix Modifier now rolls on Gloves, Rings and Martial Weapons from Level 54 (previously 68).
+- The "of the Vampire" Suffix Modifier now rolls on Gloves, Rings and Martial Weapons from Level 65 (previously 81).
+- The "of the Parched" Suffix Modifier now rolls on Gloves, Rings and Martial Weapons from Level 21 (previously 38).
+- The "of the Arid" Suffix Modifier now rolls on Gloves, Rings and Martial Weapons from Level 38 (previously 54).
+- The "of the Drought" Suffix Modifier now rolls on Gloves, Rings and Martial Weapons fromLevel 54 (previously 68).
+- The "of the Desperate" Suffix Modifier now rolls on Gloves, Rings and Martial Weapons from Level 65 (previously 81).
+- The "of the Vampire" and "of the Desperate" Modifiers can now also roll on Bows and Crossbows.
+- The Bogfelled Commoner now has a Spectre variant for the boss version of the monster.
+- Fixed a bug where Arc would gain it's Lightning Infused stats when not spending a Lightning Infusion.
+- Fixed a bug that could cause support gems that apply to "Skills you use yourself" to apply to skills being used by clones of you, such as Mirage Archer or Feral Invocation, or to minions you summon.
+- Fixed several bugs that prevented support gems from supporting Unearth.
+- Fixed various bugs that allowed disabled flasks to still be used by some effects.
+- Fixed various bugs with bleed modifiers not working on bleeds inflicted by Spell Hits.
+- Fixed a bug that caused Bone Constructs summoned by Unearth to stand still when summoned by a totem.
+- Fixed a bug that caused the Dialla's Desire Lineage Support Gem to still function when it was socketed but disabled.
+- Fixed a bug where some monsters in the Trial of the Sekhemas were not activating, preventing players from decreasing the timer in the Hourglass Trials.
+- Fixed a bug where modifiers to melee strike range were described in game units instead of metres. This results in the displayed values being 10 times smaller, but is not a functional change.
 
 ### Updates for 22/5/26
 
