@@ -164,6 +164,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Each map in the Rite of the Nameless awards one element of the key used to access the Ritual Pinnacle Boss
 - Added New Boss: The Queen in the Mists available after allocating a specific node on the Atlas Tree. This boss can drop three new corrupted Idols.
 - Freythorn Rituals are now prevented from ever showing deferred items, to ensure items are not lost if returning to this area on a higher level character.
+- You no longer get offered Ritual Altar rewards after defeating the King in the Mists in Act 1 Freythorn.
 
 ## Fate of the Vaal Moving To Core
 - Fate of the Vaal has been added to the Core Game. You first encounter a series of 6 Ancient Beacons in Act 3, energise them to obtain Energised Crystals and open a portal to the Vaal Ruins. You'll encounter a second set of 6 Ancient Beacons in the Interludes.
@@ -371,6 +372,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 
 **Blood Mage**
 - The Vitality Siphon Notable Passive Skill now grants 20% of Spell Damage Leeched as Life (previously 10%).
+- The Sanguine Tides Notable Passive Skill now grants Gain 1 Life Flask Charge per 2% Life spent (previously per 4%). On hitting an Enemy while a Life Flask is at full Charges, 40% of its Charges are consumed. (unchanged). Gain 1% of damage as Physical damage for 5 seconds per Charge consumed this way (previously 3 seconds). Flasks do not recover Life (previously 50% less Life Recovery from Flasks).
 
 **Chronomancer**
 - The Rapid River Notable Passive Skill has been removed, its position has been taken by Now and Again.
@@ -402,7 +404,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Added new hybrid Armour applies to Elemental Damage and Deflection clusters to the Passive Skill Tree.
 - Added new hybrid Deflection and Faster Start of Energy Shield Recharge clusters to the Passive Skill Tree.
 - Added new Armour and Evasion clusters to the Passive Skill Tree.
-- The Ancestral Bond Keystone Passive Skill now causes placing totems to have no cost and not require consuming charges to place. It still causes totems to reserve 75 spirit each, and now doubles totem limit instead of removing it completely.
+- The Ancestral Bond Keystone Passive now has: Your Totem Limit is doubled, No Charge requirement for placing Totems, Totems reserve 75 Spirit each. To clarify, despite Spell Totem having the Spell tag, summoning the totem itself is not a spell so costs added to spells are not added to summoning a Spell Totem.
 - The Trusted Kinship Keystone Passive Skill now grants 30% more Reservation Efficiency of Companion Skills, and 20% less Reservation Efficiency of non-Companion Skills. It no longer provides You have 30% less Defences, or Companions have +1 to each Defence for every 2 of that Defence you have.
 - The Vaal Pact Keystone Passive Skill now grants 50% more amount of Life Leeched, 67% less Life Leech speed, Cannot Recover Life other than from Leech, and Life Leech effects are not removed when Unreserved Life is Filled. It no longer provides Life Leech is Instant, or Cannot use Life Flasks.
 - The Reformed Barrier cluster has been removed.
@@ -466,6 +468,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Skills with a fixed number of projectiles (such as Glacial Lance) can now benefit from effects that cause projectile count modifiers to apply to something else instead (such as Ricochet III Support).
 - Skills which have a cost of 0 Mana now display this cost. This allows players to distinguish between skills like default attacks which do not have a cost at all (and are thus unaffected by any + cost modifiers), from those which do have a base cost, but with 0 base value (which are affected by all +cost modifiers, even if they add different resource costs, like adding life cost to a skill with base mana cost 0).
 - Crossbow Ammunition Skills now have a base cost of 0 rather than having their cost completely disabled, meaning that effects that add additional costs will now apply to them.
+- Many Skills which had no cost now cost 0 Mana, meaning that they can now gain additional costs. This includes default weapon Attacks, item-inherent Skills, and any Triggered Skills from Support Gems and other sources.
 - Ignites inflicted on targets by Oil Ground that has been ignited can no longer compound, and cannot be compounded with by other ignites from the same skill use.
 - All Command Skills now have a 50% movement speed penalty during skill use (previously 70%).
 - Align Fate (granted by the Oracle's Fateful Vision Notable Passive): Now has "Modifiers to Cooldown Recovery Rate also apply to visage appearance frequency".
@@ -478,6 +481,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Defiance Banner, Dread Banner, and War Banner: No longer have a Movement Speed penalty during use. Now have a Banner Aura base radius of 6 metres (previously 4.5).
 - Earthquake: Aftershock now deals 184-666% of Attack damage at Gem levels 1-20 (previously 160-580%).
 - Eternal Rage: Can no longer be activated in specific weapon sets. It is now required to be active in both weapon sets, and will fail to activate if this is not possible.
+- Eye of Winter now describes the number of shard projectiles it fires per second while in flight, and this number can now be modified by adding additional projectiles.
 - Feral Invocation: No longer bypasses the cooldown of socketed skills.
 - Flame Breath: Now has an Energy Gain penalty similar to Incinerate.
 - Fortifying Cry: Now only consumes one stack when you detonate a shield wall to create a shockwave around each shield wall segment. Fortifying Cry Shockwaves from a single Shield Wall cannot hit the same enemy multiple times. Shield Wave now deals 5 to 7 Added Physical Damage per 15 Armour on Shield (previously 6 to 8).
@@ -686,6 +690,9 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - You will now refill some Flask charges when Viper Napuatzi's soldiers constrict the size of her arena.
 - The Burning Dead in Ogham Village now deal a portion of their damage as Fire (previously purely Physical).
 - Improved the visuals and telegraphing of the Lightning Doryani's Elite Monster.
+- The additional Chest level modifier on Strongboxes is now +1 (from +1-2)
+- Prefix modifiers on Strongboxes that use skills, such as "Casts Chaos Barrages" now additionally have 10-20% more Rarity of Contained Items.
+- Added two new Prefix modifiers to Strongboxes: 40-60% increased Rarity of Items Dropped from Strongbox Monsters and 40-60% more Rarity of Contained Items. 15-30% increased Effectiveness of Strongbox Monsters and 20-30% more Quantity of Contained Items.
 
 ## Quest Changes
 - You can no longer enter Plunder's Point until you have turned in all 4 Map Pieces in Kingsmarch.
@@ -738,6 +745,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - The Tracking Scroll of Headhunting has been updated to also track some new bosses.
 
 ## Bug Fixes
+- Fixed a bug that caused the minion damage bonus against non-unique enemies introduced in version 0.3 to function incorrectly. Depending on specific circumstances, this will result in very little change to early minion damage, approximately 25-35% more late-game minion damage against non-unique enemies, and approximately 20-25% more late-game minion damage against unique enemies. This bonus is also no longer factored into the damage numbers displayed for skills of your minions.
 - Fixed a bug where Life Flasks could not always be used while at full life with the Enduring Elixirs Pathfinder Notable Passive Skill, despite it allowing their effect to stay on you while on full life.
 - Fixed a bug where the Ritualist's Ritual Sacrifice skill gained a cooldown at level 20 specifically. Information about using Ritual Sacrifice on yourself has now been folded into the skill's description rather than being described separately on the "As the Whispers Demand" passive. This is purely a description change.
 - Fixed a bug where Pounce was providing additional Mark Effect to Predator's Mark or socketed Marks.
@@ -885,6 +893,21 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 We really hope you enjoy Path of Exile 2: Return of the Ancients. [Thanks for your support](https://pathofexile2.com/purchase)!
 
 ## Updates to Patch Notes
+
+### Updates for 28/5/26
+
+**Updated Patch Notes:**
+- The Ancestral Bond Keystone Passive now has: Your Totem Limit is doubled, No Charge requirement for placing Totems, Totems reserve 75 Spirit each. To clarify, despite Spell Totem having the Spell tag, summoning the totem itself is not a spell so costs added to spells are not added to summoning a Spell Totem.
+
+**New Patch Notes:**
+- Many Skills which had no cost now cost 0 Mana, meaning that they can now gain additional costs. This includes default weapon Attacks, item-inherent Skills, and any Triggered Skills from Support Gems and other sources.
+- Blood Mage: The Sanguine Tides Notable Ascendancy Passive now grants: Gain 1 Life Flask Charge per 2% Life spent (previously per 4%). On hitting an Enemy while a Life Flask is at full Charges, 40% of its Charges are consumed. (unchanged). Gain 1% of damage as Physical damage for 5 seconds per Charge consumed this way (previously 3 seconds). Flasks do not recover Life (previously 50% less Life Recovery from Flasks).
+- The additional Chest level modifier on Strongboxes is now +1 (from +1-2)
+- Prefix modifiers on Strongboxes that use skills, such as "Casts Chaos Barrages" now additionally have 10-20% more Rarity of Contained Items.
+- Added two new Prefix modifiers to Strongboxes: 40-60% increased Rarity of Items Dropped from Strongbox Monsters and 40-60% more Rarity of Contained Items. 15-30% increased Effectiveness of Strongbox Monsters and 20-30% more Quantity of Contained Items.
+- You no longer get offered Ritual Altar rewards after defeating the King in the Mists in Act 1 Freythorn.
+- Eye of Winter now describes the number of shard projectiles it fires per second while in flight, and this number can now be modified by adding additional projectiles.
+- Fixed a bug that caused the minion damage bonus against non-unique enemies introduced in version 0.3 to function incorrectly. Depending on specific circumstances, this will result in very little change to early minion damage, approximately 25-35% more late-game minion damage against non-unique enemies, and approximately 20-25% more late-game minion damage against unique enemies. This bonus is also no longer factored into the damage numbers displayed for skills of your minions.
 
 ### Updates for 26/5/26
 
