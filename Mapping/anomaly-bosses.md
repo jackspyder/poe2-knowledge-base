@@ -55,6 +55,6 @@ The "Loop" involves unlocking the anomaly maps through adjacent triggers.
 ```
 
 ### High-End Target Tracking
-- **Rakiata's Flow**: (100-200+ Exalts). High liquidity item.
+- **Rakiata's Flow**: (20-40+ Divines). High liquidity item.
 - **Garukhan's Resolve**: High value, specialized builds.
-- **Karui Beacons**: Keep track of adjacent coastal maps for rapid Jade Isles resets.
+- **Karui Beacons**: Track for rapid Jade Isles resets.

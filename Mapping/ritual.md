@@ -73,27 +73,12 @@ Switch to this setup once high-value items are deferred. [Trade Link](https://ww
 ## 5. HIGH-VALUE TARGETS & REGEX
 
 ### Chase Omens
-- **Omen of Whittling**: Primary currency goal (150+ Exalts).
+- **Omen of Whittling**: Primary currency goal (25-40 Divines).
 - **Annulment / Erasure**: (Dextral/Sinistral) for high-end crafting.
 - **Amelioration**: Quality scaling.
 
-### STASH REGEX (2025 Meta)
-
-**Elite Waystones/Tablets:**
-```regex
-"rare mo.+: \+([3-4].|1..)%""teeming"
-```
-**Waystone Ready (>40% PS / >25% Q):**
-```regex
-"pa.+e: \+([4-6].|1..)%""qu.+y: \+([2-3].|1..)%"
-```
-**All-In-One High-End:**
-```regex
-"i.+ty: \+([4-9].|1..)%|pa.+e: \+([5-9].|1..)%"
-```
-
-### Video Reference Regex:
+### ACTIONABLE REGEX
+- **Monster Pack Size (60%+)**: `"mo.+ze: ([6-9].|1..)%"`
 - **Rare + Rarity**: `r.+s: \+([4-9].|1..)%""i.+ty: \+([3-9].|1..)%`
-- **Pack Size**: `m.+e: \+(4[2-9]|[5-9].|1..)%`
-- **Magic Mobs**: `(6.|70)%.+ma`
 - **Rare Mobs**: `(3[3-9]|40)%.+rare`
+- **Elite Tablets (High Tier)**: `"rare mo.+: \+([3-4].|1..)%""teeming"`
