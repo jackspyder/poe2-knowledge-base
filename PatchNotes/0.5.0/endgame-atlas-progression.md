@@ -7,7 +7,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - The Atlas now has fixed points of interest, making progression objective-driven rather than mostly exploratory. [L77](../poe2-0.5.0-return-of-the-ancients.md#L77)
 - League mechanics on the Atlas now have questlines that introduce the mechanic and take you through its stages up to the Pinnacle Boss. [L78](../poe2-0.5.0-return-of-the-ancients.md#L78)
 - Pinnacle Bosses now have deterministic quest versions in addition to repeatable higher-challenge farm versions. [L79](../poe2-0.5.0-return-of-the-ancients.md#L79), [L228](../poe2-0.5.0-return-of-the-ancients.md#L228)
-- Existing Primary, Secondary, and Tertiary Calamity Fragments were converted to Ancient, Faded, and Weathered Crisis Fragments respectively. [L964-L966](../poe2-0.5.0-return-of-the-ancients.md#L964-L966)
+- Existing Primary, Secondary, and Tertiary Calamity Fragments were converted to Ancient, Faded, and Weathered Crisis Fragments respectively. [L976-L978](../poe2-0.5.0-return-of-the-ancients.md#L976-L978)
 - 30 new endgame map areas were added. [L80](../poe2-0.5.0-return-of-the-ancients.md#L80)
 - Atlas completion at fixed locations is shared with party members. [L254](../poe2-0.5.0-return-of-the-ancients.md#L254)
 
@@ -49,7 +49,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Base map spawn chances for Essences, Azmeri Spirits, Shrines, Strongboxes, Summoning Circles, and Rogue Exiles were lowered because Atlas Tree scaling is larger. [L237](../poe2-0.5.0-return-of-the-ancients.md#L237)
 - General Precursor Tablet modifiers were retuned closer to Waystone modifier bonuses, with reduced roll variance. [L239](../poe2-0.5.0-return-of-the-ancients.md#L239)
 - Several Waystone modifiers can no longer roll, and many map modifiers were reassigned between prefixes and suffixes based on whether they affect monster output or player/monster defences. [L240-L243](../poe2-0.5.0-return-of-the-ancients.md#L240-L243)
-- Waystone modifiers adding monster damage, elemental resistance penetration, or reduced player maximum resistances were reduced across the board, and the Extra Projectiles to Monsters Waystone modifier was disabled. [L967-L968](../poe2-0.5.0-return-of-the-ancients.md#L967-L968)
+- Waystone modifiers adding monster damage, elemental resistance penetration, or reduced player maximum resistances were reduced across the board, and the Extra Projectiles to Monsters Waystone modifier was disabled. [L979-L980](../poe2-0.5.0-return-of-the-ancients.md#L979-L980)
 - Waystone bonuses now provide multiplicative Monster Effectiveness, Pack Size, Item Rarity, Monster Rarity, or Waystone Drop Chance. [L245](../poe2-0.5.0-return-of-the-ancients.md#L245)
 - Pack Size now gives a chance for an additional Rare Monster in rare packs, and Monster Rarity is a new stat affecting magic/rare monster chances and rare modifier counts. [L246](../poe2-0.5.0-return-of-the-ancients.md#L246), [L247](../poe2-0.5.0-return-of-the-ancients.md#L247)
 - Chaotic waystone Omens now prevent certain modifier types rather than guaranteeing them, and Omen of Chaotic Effectiveness can exclude Monster Effectiveness modifiers. [L250-L252](../poe2-0.5.0-return-of-the-ancients.md#L250-L252)
@@ -60,9 +60,9 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 ## UI and Bug Fixes
 
 - Atlas Map search, further zoom-out, clickable Atlas town travel, larger content indicators, and new Waystone art improve navigation and scanning. [L225-L227](../poe2-0.5.0-return-of-the-ancients.md#L225-L227), [L255-L260](../poe2-0.5.0-return-of-the-ancients.md#L255-L260)
-- Abyss Precursor Tablets no longer incorrectly add one extra Abyss each. [L812](../poe2-0.5.0-return-of-the-ancients.md#L812)
-- Trial of the Sekhemas Hourglass trials had a monster activation bug fixed. [L1007](../poe2-0.5.0-return-of-the-ancients.md#L1007)
-- Boss health bars no longer show inside the Atlas screen. [L865](../poe2-0.5.0-return-of-the-ancients.md#L865)
+- Abyss Precursor Tablets no longer incorrectly add one extra Abyss each. [L813](../poe2-0.5.0-return-of-the-ancients.md#L813)
+- Trial of the Sekhemas Hourglass trials had a monster activation bug fixed. [L1019](../poe2-0.5.0-return-of-the-ancients.md#L1019)
+- Boss health bars no longer show inside the Atlas screen. [L866](../poe2-0.5.0-return-of-the-ancients.md#L866)
 
 ## Practical Read
 

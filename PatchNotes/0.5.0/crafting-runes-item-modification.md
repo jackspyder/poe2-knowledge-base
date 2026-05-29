@@ -8,9 +8,9 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Remnant monsters can drop Verisium, and Farrow's campaign quests unlock new crafting features. [L46-L48](../poe2-0.5.0-return-of-the-ancients.md#L46-L48)
 - Verisium Runeforging adds Runic Ward to armour, with no downside below level 55 and defence tradeoffs above that. [L49](../poe2-0.5.0-return-of-the-ancients.md#L49)
 - 13 Alloy currencies replace existing modifiers with specific crafted modifiers, similar to Perfect Essences. [L51](../poe2-0.5.0-return-of-the-ancients.md#L51)
-- Unique Verisium Runeforging upgrades low-level unique weapon and armour base types and can add Runic Ward to higher-level unique armour. Kalguuran uniques have additional interactions. [L52-L53](../poe2-0.5.0-return-of-the-ancients.md#L52-L53), [L1013](../poe2-0.5.0-return-of-the-ancients.md#L1013)
+- Unique Verisium Runeforging upgrades low-level unique weapon and armour base types and can add Runic Ward to higher-level unique armour. Kalguuran uniques have additional interactions. [L52-L53](../poe2-0.5.0-return-of-the-ancients.md#L52-L53), [L1025](../poe2-0.5.0-return-of-the-ancients.md#L1025)
 - New rune categories include Ancient weapon-type runes, Mythical early-game runes, Fluxes for resistance conversion, Meta crafting runes, unique-destroying property runes, and Runic Ward runes. [L54-L59](../poe2-0.5.0-return-of-the-ancients.md#L54-L59)
-- Kalguuran craftable rewards now list 23 Kalguuran Skills and 7 Kalguuran Supports from Remnants; the update log explicitly adds Rain of Blades and Wardbound Minions to the skill list and removes Kalguuran Conviction from the support list. [L60-L61](../poe2-0.5.0-return-of-the-ancients.md#L60-L61), [L915](../poe2-0.5.0-return-of-the-ancients.md#L915), [L959](../poe2-0.5.0-return-of-the-ancients.md#L959)
+- Kalguuran craftable rewards now list 23 Kalguuran Skills and 7 Kalguuran Supports from Remnants; the update log explicitly adds Rain of Blades and Wardbound Minions to the skill list and removes Kalguuran Conviction from the support list. [L60-L61](../poe2-0.5.0-return-of-the-ancients.md#L60-L61), [L927](../poe2-0.5.0-return-of-the-ancients.md#L927), [L971](../poe2-0.5.0-return-of-the-ancients.md#L971)
 
 ## League Mechanic Crafting Systems
 
@@ -31,7 +31,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Essences are more common in the campaign, but Essences of the Infinite make up a smaller share. [L601](../poe2-0.5.0-return-of-the-ancients.md#L601)
 - Recombinator and Omen of Recombination are disabled, with existing Omens of Recombination deleted on login. [L213](../poe2-0.5.0-return-of-the-ancients.md#L213)
 - Expedition vendors can now use stash currency for purchases; old Expedition artifacts and related items were removed or restricted on the Currency Exchange, legacy Expedition currency can be vendored for Gold, and deprecated Expedition/Recombinator inventories can be reclaimed with `/reclaimexpeditioninventories`. [L216-L221](../poe2-0.5.0-return-of-the-ancients.md#L216-L221)
-- Exile's Pilfering Ring and Tracking Scroll of Crafting now track Hinekora's Lock and Fracturing Orb. [L744](../poe2-0.5.0-return-of-the-ancients.md#L744)
+- Exile's Pilfering Ring and Tracking Scroll of Crafting now track Hinekora's Lock and Fracturing Orb. [L745](../poe2-0.5.0-return-of-the-ancients.md#L745)
 
 ## Base Item and Modifier Retuning
 
@@ -53,7 +53,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Seasonal runes from Lady Hestra, Thane Leld, and Thane Myrk now add damage conditionally against chilled/frozen, shocked, or ignited enemies. [L639-L641](../poe2-0.5.0-return-of-the-ancients.md#L639-L641)
 - All Idols can now socket into Sceptres, and many Idol socket and bonded modifiers were updated. [L642-L660](../poe2-0.5.0-return-of-the-ancients.md#L642-L660)
 - Atmohua's Soul Core of Retreat now grants ailment and stun threshold from maximum Energy Shield instead of faster Energy Shield recharge start. [L661](../poe2-0.5.0-return-of-the-ancients.md#L661)
-- Quipolatl's Thesis was retuned across Helmet, Glove, and Body Armour socket outcomes, while Guatelitzi's Thesis now grants Armour equal to 35% of Life lost from hits in the past 8 seconds from helmets. [L986-L987](../poe2-0.5.0-return-of-the-ancients.md#L986-L987)
+- Quipolatl's Thesis was retuned across Helmet, Glove, and Body Armour socket outcomes, while Guatelitzi's Thesis now grants Armour equal to 35% of Life lost from hits in the past 8 seconds from helmets. [L998-L999](../poe2-0.5.0-return-of-the-ancients.md#L998-L999)
 - Ruby and Sapphire Jewel modifier ranges were adjusted. [L662-L663](../poe2-0.5.0-return-of-the-ancients.md#L662-L663)
 
 ## Energy Shield and Other Affix Pool Changes
@@ -65,14 +65,15 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Ring and amulet Cast Speed modifiers are no longer shared with Foci and Wands, and their highest tiers now roll at specific higher levels. [L672](../poe2-0.5.0-return-of-the-ancients.md#L672)
 - Jewel Banner Area of Effect modifiers have lower values. [L673](../poe2-0.5.0-return-of-the-ancients.md#L673)
 - Desecrated Instant Leech modifiers can no longer roll, though existing items are unaffected. [L674](../poe2-0.5.0-return-of-the-ancients.md#L674)
-- Physical Attack Damage leeched as Life/Mana modifiers on Gloves and Rings now roll at lower levels with first tiers removed, Parasite/Thirsty suffixes can no longer roll, remaining Life/Mana leech suffix tiers have lower level requirements, and Vampire/Desperate can roll on Bows and Crossbows. [L988-L998](../poe2-0.5.0-return-of-the-ancients.md#L988-L998)
+- Physical Attack Damage leeched as Life/Mana modifiers on Gloves and Rings now roll at lower levels with first tiers removed, Parasite/Thirsty suffixes can no longer roll, remaining Life/Mana leech suffix tiers have lower level requirements, and Vampire/Desperate can roll on Bows and Crossbows. [L1000-L1010](../poe2-0.5.0-return-of-the-ancients.md#L1000-L1010)
 
 ## Crafting-Relevant Bug Fixes
 
-- Corrupting Essences no longer sometimes remove the Essence. [L840](../poe2-0.5.0-return-of-the-ancients.md#L840)
-- Essence monster minions now correctly receive Rare-pack stat increases. [L841](../poe2-0.5.0-return-of-the-ancients.md#L841)
-- Items without modifiers no longer appear in lower-level Ritual encounters. [L843](../poe2-0.5.0-return-of-the-ancients.md#L843)
-- Soul Core Ultimatum encounters can no longer be completed using a single Soul Core. [L851](../poe2-0.5.0-return-of-the-ancients.md#L851)
+- Corrupting Essences no longer sometimes remove the Essence. [L841](../poe2-0.5.0-return-of-the-ancients.md#L841)
+- Essence monster minions now correctly receive Rare-pack stat increases. [L842](../poe2-0.5.0-return-of-the-ancients.md#L842)
+- Items without modifiers no longer appear in lower-level Ritual encounters. [L844](../poe2-0.5.0-return-of-the-ancients.md#L844)
+- Soul Core Ultimatum encounters can no longer be completed using a single Soul Core. [L852](../poe2-0.5.0-return-of-the-ancients.md#L852)
+- Flat Thorns damage item modifiers can no longer roll minimum damage equal to or higher than maximum damage. [L895](../poe2-0.5.0-return-of-the-ancients.md#L895)
 
 ## Practical Read
 

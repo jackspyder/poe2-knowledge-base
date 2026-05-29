@@ -10,7 +10,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 
 ## Unique Upgrade and Vaal Outcome Changes
 
-- Unique Verisium Runeforging can upgrade low-level unique weapons and armour, improving weapon damage or armour defences and adding Runic Ward to armour. [L52](../poe2-0.5.0-return-of-the-ancients.md#L52), [L1013](../poe2-0.5.0-return-of-the-ancients.md#L1013)
+- Unique Verisium Runeforging can upgrade low-level unique weapons and armour, improving weapon damage or armour defences and adding Runic Ward to armour. [L52](../poe2-0.5.0-return-of-the-ancients.md#L52), [L1025](../poe2-0.5.0-return-of-the-ancients.md#L1025)
 - Kalguuran uniques have additional Unique Verisium Runeforging properties. [L53](../poe2-0.5.0-return-of-the-ancients.md#L53)
 - Vaal Cultivation Orb outcomes changed for Atziri's Rule, Atziri's Splendour, The Covenant, Hateforge, Rathpith Globe, Shackles of the Wretched, and The Vertex. [L193-L200](../poe2-0.5.0-return-of-the-ancients.md#L193-L200)
 
@@ -23,7 +23,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Brass Dome has lower increased Armour. [L565](../poe2-0.5.0-return-of-the-ancients.md#L565)
 - Gravebind now has 15-20% increased item rarity and disables other rarity modifiers to items found. [L572](../poe2-0.5.0-return-of-the-ancients.md#L572)
 - Keeper of the Arc has higher Armour and Energy Shield values. [L576](../poe2-0.5.0-return-of-the-ancients.md#L576)
-- Quipolatl's Thesis now starts Energy Shield Recharge when minions are reformed from gloves and improves its full-Energy-Shield Armour-to-Chaos-Damage body-armour value, while Guatelitzi's Thesis now grants more Armour from recent Life lost by hits. [L986-L987](../poe2-0.5.0-return-of-the-ancients.md#L986-L987)
+- Quipolatl's Thesis now starts Energy Shield Recharge when minions are reformed from gloves and improves its full-Energy-Shield Armour-to-Chaos-Damage body-armour value, while Guatelitzi's Thesis now grants more Armour from recent Life lost by hits. [L998-L999](../poe2-0.5.0-return-of-the-ancients.md#L998-L999)
 - Sine Aequo has higher Armour/Evasion/Energy Shield and changes from an immobilized-enemy more-damage stat to increased damage against immobilized enemies. [L585](../poe2-0.5.0-return-of-the-ancients.md#L585)
 - Svalinn's Cast on Block now makes supported skills cost nothing and gains Runic Ward. [L587](../poe2-0.5.0-return-of-the-ancients.md#L587)
 
@@ -36,7 +36,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Eshtera's Path, Safrin's Resolve, and Zaida's Longevity are converted away from area-penalty resistance immunity and into resistance scaling based on equipped-item resistance modifiers. [L570-L571](../poe2-0.5.0-return-of-the-ancients.md#L570-L571), [L582](../poe2-0.5.0-return-of-the-ancients.md#L582), [L588](../poe2-0.5.0-return-of-the-ancients.md#L588)
 - Hyrri's Ire has lower Evasion and lower extra Cold Damage. [L575](../poe2-0.5.0-return-of-the-ancients.md#L575)
 - Levinstone loses +1 Lightning Skills and instead gives Lightning Skills an extra chain. [L577](../poe2-0.5.0-return-of-the-ancients.md#L577)
-- Collapsing Horizon now grants 100% increased Elemental Damage generally rather than only Elemental Damage with Attacks. [L978](../poe2-0.5.0-return-of-the-ancients.md#L978)
+- Collapsing Horizon now grants 100% increased Elemental Damage generally rather than only Elemental Damage with Attacks. [L990](../poe2-0.5.0-return-of-the-ancients.md#L990)
 - Plaguefinger now prevents Elemental Ailments. [L579](../poe2-0.5.0-return-of-the-ancients.md#L579)
 - Prized Pain now gives a chance to deal Thorns damage on melee hit rather than only to stunned enemies. [L580](../poe2-0.5.0-return-of-the-ancients.md#L580)
 - Radiant Grief doubles the base Fire Damage for enemies ignited in your presence. [L581](../poe2-0.5.0-return-of-the-ancients.md#L581)
@@ -47,18 +47,18 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Chober Chaber now grants +2-3 to all Minion Skills. [L567](../poe2-0.5.0-return-of-the-ancients.md#L567)
 - Glowswarm grants Guard from Mana Flask recovery. [L571](../poe2-0.5.0-return-of-the-ancients.md#L571)
 - Hollow Mask grants Wildwood's Gifts, shares Remnant effects with allies in your presence, and improves Remnant Skill reservation efficiency. [L573](../poe2-0.5.0-return-of-the-ancients.md#L573)
-- Idol of Uldurn now has reduced Presence Area of Effect and increased Spirit. [L979](../poe2-0.5.0-return-of-the-ancients.md#L979)
+- Idol of Uldurn now has reduced Presence Area of Effect and increased Spirit. [L991](../poe2-0.5.0-return-of-the-ancients.md#L991)
 - Reverie replaces Husk of Dreams and becomes a Life Flask engine with constant non-unique Life Flask effects, inability to use Life Flasks, non-instant recovery, and less recovery. [L574](../poe2-0.5.0-return-of-the-ancients.md#L574)
-- Road Warrior can no longer be obtained. [L980](../poe2-0.5.0-return-of-the-ancients.md#L980)
+- Road Warrior can no longer be obtained. [L992](../poe2-0.5.0-return-of-the-ancients.md#L992)
 - Soul Mantle loses reduced Totem Life and gains +75 Spirit. [L586](../poe2-0.5.0-return-of-the-ancients.md#L586)
-- Unborn Lich granted skills were heavily retuned, including zero mana costs, a fixed 8 second cooldown on His Foul Emergence, stronger Wither/Withering Ground durations, stronger His Vile Intrusion Impale scaling, and faster His Winnowing Flame Grisly Pyres. [L981-L984](../poe2-0.5.0-return-of-the-ancients.md#L981-L984)
+- Unborn Lich granted skills were heavily retuned, including zero mana costs, a fixed 8 second cooldown on His Foul Emergence, stronger Wither/Withering Ground durations, stronger His Vile Intrusion Impale scaling, and faster His Winnowing Flame Grisly Pyres. [L993-L996](../poe2-0.5.0-return-of-the-ancients.md#L993-L996)
 - Zerphi's Genesis converts consumed Life Flask charges into Charm charges and gives corrupted-gem skill cost efficiency during flask effects. [L589](../poe2-0.5.0-return-of-the-ancients.md#L589)
 
 ## Item Pool and Storage Notes
 
 - Megalomaniac now drops identified. [L578](../poe2-0.5.0-return-of-the-ancients.md#L578)
 - Sekhema's Resolve rings were renamed into Safrin's Resolve, Zaida's Longevity, and Eshtera's Path. [L584](../poe2-0.5.0-return-of-the-ancients.md#L584)
-- Upgraded variants of Grip of Kulemak can now be stored in the Unique Stash Tab. [L867](../poe2-0.5.0-return-of-the-ancients.md#L867)
+- Upgraded variants of Grip of Kulemak can now be stored in the Unique Stash Tab. [L868](../poe2-0.5.0-return-of-the-ancients.md#L868)
 
 ## Practical Read
 

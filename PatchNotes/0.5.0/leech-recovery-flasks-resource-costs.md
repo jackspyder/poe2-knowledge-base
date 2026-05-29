@@ -8,7 +8,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Leech calculations now cap hit damage at 40,000 for purposes of leech amount, so very large hits stop scaling leech past that point. [L275](../poe2-0.5.0-return-of-the-ancients.md#L275)
 - Monster Leech resistance starts later, has lower values, and is normalized across monster rarities. [L686](../poe2-0.5.0-return-of-the-ancients.md#L686)
 - Desecrated Instant Leech modifiers can no longer roll, but existing items are not changed. [L674](../poe2-0.5.0-return-of-the-ancients.md#L674)
-- Physical Attack Damage leeched as Life/Mana affixes on gloves and rings now roll at lower levels, lose their first tiers, and have several remaining suffix tiers shifted to lower item levels; Vampire and Desperate can also roll on bows and crossbows. [L988-L998](../poe2-0.5.0-return-of-the-ancients.md#L988-L998)
+- Physical Attack Damage leeched as Life/Mana affixes on gloves and rings now roll at lower levels, lose their first tiers, and have several remaining suffix tiers shifted to lower item levels; Vampire and Desperate can also roll on bows and crossbows. [L1000-L1010](../poe2-0.5.0-return-of-the-ancients.md#L1000-L1010)
 
 ## Life Leech and Life Recovery
 
@@ -27,11 +27,11 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 
 - Many passive tree Energy Shield Recharge Rate stats were reduced, removed, or converted into lower faster-start-of-recharge values. [L414-L446](../poe2-0.5.0-return-of-the-ancients.md#L414-L446)
 - Small faster-start Energy Shield Recharge passives are reduced to 6%, and small recharge-rate passives are replaced by lower faster-start passives. [L460-L461](../poe2-0.5.0-return-of-the-ancients.md#L460-L461)
-- Ghost Dance now regenerates Energy Shield equal to 2% of Evasion Rating per second after losing a Ghost Shroud recently. [L491](../poe2-0.5.0-return-of-the-ancients.md#L491), [L1014](../poe2-0.5.0-return-of-the-ancients.md#L1014)
+- Ghost Dance now regenerates Energy Shield equal to 2% of Evasion Rating per second after losing a Ghost Shroud recently. [L491](../poe2-0.5.0-return-of-the-ancients.md#L491), [L1026](../poe2-0.5.0-return-of-the-ancients.md#L1026)
 - Apep's Supremacy loses faster Energy Shield recharge start, while Sierran Inheritance switches from faster start to Energy Shield Recharge Rate. [L560-L562](../poe2-0.5.0-return-of-the-ancients.md#L560-L562)
-- Quipolatl's Thesis now starts Energy Shield Recharge when minions are reformed if socketed into gloves. [L986](../poe2-0.5.0-return-of-the-ancients.md#L986)
+- Quipolatl's Thesis now starts Energy Shield Recharge when minions are reformed if socketed into gloves. [L998](../poe2-0.5.0-return-of-the-ancients.md#L998)
 - Essence of Hysteria, Rebirth Runes, Craiceann's Rune of Recovery, Arcane Raiment/Sacramental Robe implicits, and recharge suffixes all received Energy Shield recharge pool/value changes. [L621](../poe2-0.5.0-return-of-the-ancients.md#L621), [L635-L638](../poe2-0.5.0-return-of-the-ancients.md#L635-L638), [L664-L671](../poe2-0.5.0-return-of-the-ancients.md#L664-L671)
-- Bug fixes: skills costing a percentage of maximum Energy Shield now work at zero maximum Energy Shield, Eternal Youth no longer lets zero-Energy-Shield characters bypass the Energy Shield regeneration delay for Life Regeneration, and Energy Shield depletion audio now plays for damage over time. [L788](../poe2-0.5.0-return-of-the-ancients.md#L788), [L774](../poe2-0.5.0-return-of-the-ancients.md#L774), [L861](../poe2-0.5.0-return-of-the-ancients.md#L861)
+- Bug fixes: skills costing a percentage of maximum Energy Shield now work at zero maximum Energy Shield, Eternal Youth no longer lets zero-Energy-Shield characters bypass the Energy Shield regeneration delay for Life Regeneration, and Energy Shield depletion audio now plays for damage over time. [L789](../poe2-0.5.0-return-of-the-ancients.md#L789), [L775](../poe2-0.5.0-return-of-the-ancients.md#L775), [L862](../poe2-0.5.0-return-of-the-ancients.md#L862)
 
 ## Flasks, Guard, and Recovery Items
 
@@ -44,7 +44,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Vision Runes improve Life and Mana Flask Recovery on armour items. [L627](../poe2-0.5.0-return-of-the-ancients.md#L627)
 - Idol of Maxarius gives Flask Charges per second from Sceptres. [L646](../poe2-0.5.0-return-of-the-ancients.md#L646)
 - Viper Napuatzi's arena constriction now refills some Flask charges. [L690](../poe2-0.5.0-return-of-the-ancients.md#L690)
-- Bug fixes: Life Flasks can be used correctly at full life with Enduring Elixirs, disabled flasks can no longer still be used by some effects, and Melting Maelstrom can hit enemies. [L749](../poe2-0.5.0-return-of-the-ancients.md#L749), [L766](../poe2-0.5.0-return-of-the-ancients.md#L766), [L786](../poe2-0.5.0-return-of-the-ancients.md#L786)
+- Bug fixes: Life Flasks can be used correctly at full life with Enduring Elixirs, disabled flasks can no longer still be used by some effects, and Melting Maelstrom can hit enemies. [L750](../poe2-0.5.0-return-of-the-ancients.md#L750), [L767](../poe2-0.5.0-return-of-the-ancients.md#L767), [L787](../poe2-0.5.0-return-of-the-ancients.md#L787)
 
 ## Resource Costs and Cost Efficiency
 
@@ -52,7 +52,7 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Skills with 0 Mana cost now display it, and Crossbow Ammunition Skills now have base cost 0 rather than disabled cost. This matters for added-cost mechanics. [L469-L470](../poe2-0.5.0-return-of-the-ancients.md#L469-L470)
 - Many skills that previously had no cost now cost 0 Mana, including default weapon attacks, item-inherent skills, and triggered skills from support gems or other sources, so added-cost mechanics can apply to them. [L471](../poe2-0.5.0-return-of-the-ancients.md#L471)
 - Oil Barrage has lower mana cost, and Empowered Oil Barrage now uses cost-per-second based on the initial cost. [L500](../poe2-0.5.0-return-of-the-ancients.md#L500)
-- Unborn Lich granted skills had several Mana Costs reduced to 0, while His Foul Emergence now has an 8 second cooldown at all levels. [L981-L984](../poe2-0.5.0-return-of-the-ancients.md#L981-L984)
+- Unborn Lich granted skills had several Mana Costs reduced to 0, while His Foul Emergence now has an 8 second cooldown at all levels. [L993-L996](../poe2-0.5.0-return-of-the-ancients.md#L993-L996)
 - Paquate's Pact changes from Life loss per Corrupted Blood to a supported-skill maximum-Life cost based on recent use. [L547](../poe2-0.5.0-return-of-the-ancients.md#L547)
 - Svalinn's Cast on Block makes supported skills cost nothing. [L587](../poe2-0.5.0-return-of-the-ancients.md#L587)
 - Idol of Eeshta grants Cost Efficiency from helmets and Mana Recovery Rate while a companion is in your presence from Sceptres. [L644](../poe2-0.5.0-return-of-the-ancients.md#L644)

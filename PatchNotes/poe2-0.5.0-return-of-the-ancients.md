@@ -725,6 +725,7 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Improved target selection for items and interactable objects when using a controller.
 - Updated and restructured the Options menu.
 - Enabled in-game clock option for PlayStation and Xbox.
+- The Support Gem cutting UI's "All Valid" tab will now also show support gems that are valid for any of the Skill Gems socketed into the selected Meta Gem.
 
 ## Microtransaction Changes
 - Enabled the following existing Armour Set microtransactions for use in Path of Exile 2: Arcane, Arctic Crystal, Assassin, Atlantis, Black and White, Chimera, Coliseum, Cursed, Darkprism, Doomguard, Eclipse, Eyrie, Fire, Fire and Ice, Imperial Eagle, Mageguard, Malachai, Miracle, Scavenger, Seeker, Twilight, Void Emperor, Vulcan, and Wild.
@@ -889,10 +890,21 @@ The Return of the Ancients expansion contains a new league, an overhaul to Path 
 - Fixed an issue where the Black Hole Rare Finisher Effect was previously stated as being enabled in Path of Exile 2 but could not be equipped.
 - Fixed an issue where the Dragon Fire Rare Finisher Effect was previously stated as being enabled in Path of Exile 2 but could not be equipped.
 - Fixed a bug where the Arachnamagus Portal Effect microtransaction was missing its effects.
+- Fixed a bug where reducing presence radius to 0 could cause certain buffs to incorrectly apply to yourself.
+- Fixed a bug where stolen monster mods from Behead support would be lost on killing a monster.
+- Fixed a bug where some item mods that grant flat Thorns damage could roll minimum damage equal to or higher than maximum damage.
 
 We really hope you enjoy Path of Exile 2: Return of the Ancients. [Thanks for your support](https://pathofexile2.com/purchase)!
 
 ## Updates to Patch Notes
+
+### Updates for 29/5/26
+
+**New Patch Notes:**
+- The Support Gem cutting UI's "All Valid" tab will now also show support gems that are valid for any of the Skill Gems socketed into the selected Meta Gem.
+- Fixed a bug where reducing presence radius to 0 could cause certain buffs to incorrectly apply to yourself.
+- Fixed a bug where stolen monster mods from Behead support would be lost on killing a monster.
+- Fixed a bug where some item mods that grant flat Thorns damage could roll minimum damage equal to or higher than maximum damage.
 
 ### Updates for 28/5/26
 

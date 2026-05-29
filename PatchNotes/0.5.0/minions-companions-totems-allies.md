@@ -7,9 +7,10 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Spirit Walker is a new Huntress Ascendancy centered on spirits, beast subduing, and spectral companions. [L289](../poe2-0.5.0-return-of-the-ancients.md#L289)
 - 19 Companion-themed passive skills were added. [L400](../poe2-0.5.0-return-of-the-ancients.md#L400)
 - Trusted Kinship now gives more reservation efficiency for Companion Skills and less reservation efficiency for non-Companion Skills, removing its previous defence exchange. [L408](../poe2-0.5.0-return-of-the-ancients.md#L408)
-- Tame Beast summons newly tamed beasts immediately if you have enough Spirit, gives summoned beasts much more damage, and moved down to minimum gem level 7. [L515](../poe2-0.5.0-return-of-the-ancients.md#L515), [L976](../poe2-0.5.0-return-of-the-ancients.md#L976)
+- Tame Beast summons newly tamed beasts immediately if you have enough Spirit, gives summoned beasts much more damage, and moved down to minimum gem level 7. [L515](../poe2-0.5.0-return-of-the-ancients.md#L515), [L988](../poe2-0.5.0-return-of-the-ancients.md#L988)
 - Remnant-sharing with allies no longer triggers stats worded as "when you collect a Remnant." [L283](../poe2-0.5.0-return-of-the-ancients.md#L283)
 - Modifiers that apply to allies in your Presence no longer stack in parties when multiple players provide modifiers of the same type, except for Leer Cast's allies-in-presence damage modifier. [L278](../poe2-0.5.0-return-of-the-ancients.md#L278)
+- Reducing presence radius to 0 no longer causes some buffs to incorrectly apply to yourself. [L893](../poe2-0.5.0-return-of-the-ancients.md#L893)
 - Hollow Mask shares Remnant effects with allies in your presence and improves Remnant Skill reservation efficiency. [L573](../poe2-0.5.0-return-of-the-ancients.md#L573)
 
 ## Minion Skills and Supports
@@ -23,8 +24,8 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 - Rage I, II, and III can now support Minion Skills. [L548](../poe2-0.5.0-return-of-the-ancients.md#L548)
 - Chober Chaber now grants +2-3 to all Minion Skills. [L567](../poe2-0.5.0-return-of-the-ancients.md#L567)
 - Genesis Tree can craft new Caster and Minion mods onto rings and belts. [L143](../poe2-0.5.0-return-of-the-ancients.md#L143)
-- Quipolatl's Thesis now starts Energy Shield Recharge when Minions are Reformed if socketed into gloves. [L986](../poe2-0.5.0-return-of-the-ancients.md#L986)
-- The Bogfelled Commoner now has a Spectre variant for the boss version of the monster. [L999](../poe2-0.5.0-return-of-the-ancients.md#L999)
+- Quipolatl's Thesis now starts Energy Shield Recharge when Minions are Reformed if socketed into gloves. [L998](../poe2-0.5.0-return-of-the-ancients.md#L998)
+- The Bogfelled Commoner now has a Spectre variant for the boss version of the monster. [L1011](../poe2-0.5.0-return-of-the-ancients.md#L1011)
 
 ## Totems, Banners, and Bells
 
@@ -48,25 +49,26 @@ Source: [Content Update 0.5.0 captured patch notes](../poe2-0.5.0-return-of-the-
 ## Mirage Archer and Mirage Deadeye
 
 - Mirage Archer and Mirage Deadeye can now be used with channelled skills, including Snipe, Plasma Blast, and Detonating Arrow. [L498](../poe2-0.5.0-return-of-the-ancients.md#L498)
-- Bug fixes improve Mirage Archer/Deadeye target rotation, prevent invalid skill socketing, and address unintended supportability. [L752-L753](../poe2-0.5.0-return-of-the-ancients.md#L752-L753), [L801](../poe2-0.5.0-return-of-the-ancients.md#L801)
+- Bug fixes improve Mirage Archer/Deadeye target rotation, prevent invalid skill socketing, and address unintended supportability. [L753-L754](../poe2-0.5.0-return-of-the-ancients.md#L753-L754), [L802](../poe2-0.5.0-return-of-the-ancients.md#L802)
 
 ## Bug Fixes
 
-- The minion damage bonus against non-unique enemies introduced in 0.3 now works correctly, resulting in much higher late-game minion damage and removing that bonus from displayed minion skill damage. [L748](../poe2-0.5.0-return-of-the-ancients.md#L748)
-- Minion Instability now bypasses Last Gasp correctly. [L755](../poe2-0.5.0-return-of-the-ancients.md#L755)
-- Supports restricted to "Skills you use yourself" no longer incorrectly apply to clones such as Mirage Archer or Feral Invocation, or to minions you summon. [L764](../poe2-0.5.0-return-of-the-ancients.md#L764)
-- Several Unearth supportability bugs were fixed, and Bone Constructs from Unearth no longer stand still when summoned by a totem. [L765](../poe2-0.5.0-return-of-the-ancients.md#L765), [L768](../poe2-0.5.0-return-of-the-ancients.md#L768)
-- Fire Skills used by Spell Totems or by Visages from Align Fate no longer generate Raging Spirits. [L770-L771](../poe2-0.5.0-return-of-the-ancients.md#L770-L771)
-- Tactician's Cannons, Ready! now causes totems to attack when using the listed player skills. [L785](../poe2-0.5.0-return-of-the-ancients.md#L785)
-- Player-created Azmeri Spirit Possession modifiers now use skills and function correctly, dealing more damage and using skills more often. [L794](../poe2-0.5.0-return-of-the-ancients.md#L794)
-- Shockwave Totem can no longer be socketed into Ancestral Warrior Totem. [L798](../poe2-0.5.0-return-of-the-ancients.md#L798)
-- Infernal Legion no longer always crits whenever it has any critical hit chance. [L802](../poe2-0.5.0-return-of-the-ancients.md#L802)
-- Reviving minions intended to inherit player movement speed now do so, including Smith of Kitava's Manifest Weapon, dismounted Rhoa Mount, and Hysseg's Claw Hyenas. [L803](../poe2-0.5.0-return-of-the-ancients.md#L803)
-- Grim Feast no longer sometimes fails to revive minions. [L807](../poe2-0.5.0-return-of-the-ancients.md#L807)
-- Boss skills can correctly target player minions. [L819](../poe2-0.5.0-return-of-the-ancients.md#L819)
-- Essence Monster pack minions now receive Rare-pack stat increases. [L841](../poe2-0.5.0-return-of-the-ancients.md#L841)
-- Varashta's Blessing now states that it does not modify minion skills. [L858](../poe2-0.5.0-return-of-the-ancients.md#L858)
-- Totems in the Skills panel no longer incorrectly prompt activation under Ancestral Bond, and presence radius indicators no longer stop working in some cases. [L862](../poe2-0.5.0-return-of-the-ancients.md#L862), [L868](../poe2-0.5.0-return-of-the-ancients.md#L868)
+- The minion damage bonus against non-unique enemies introduced in 0.3 now works correctly, resulting in much higher late-game minion damage and removing that bonus from displayed minion skill damage. [L749](../poe2-0.5.0-return-of-the-ancients.md#L749)
+- Minion Instability now bypasses Last Gasp correctly. [L756](../poe2-0.5.0-return-of-the-ancients.md#L756)
+- Supports restricted to "Skills you use yourself" no longer incorrectly apply to clones such as Mirage Archer or Feral Invocation, or to minions you summon. [L765](../poe2-0.5.0-return-of-the-ancients.md#L765)
+- Several Unearth supportability bugs were fixed, and Bone Constructs from Unearth no longer stand still when summoned by a totem. [L766](../poe2-0.5.0-return-of-the-ancients.md#L766), [L769](../poe2-0.5.0-return-of-the-ancients.md#L769)
+- Fire Skills used by Spell Totems or by Visages from Align Fate no longer generate Raging Spirits. [L771-L772](../poe2-0.5.0-return-of-the-ancients.md#L771-L772)
+- Tactician's Cannons, Ready! now causes totems to attack when using the listed player skills. [L786](../poe2-0.5.0-return-of-the-ancients.md#L786)
+- Player-created Azmeri Spirit Possession modifiers now use skills and function correctly, dealing more damage and using skills more often. [L795](../poe2-0.5.0-return-of-the-ancients.md#L795)
+- Shockwave Totem can no longer be socketed into Ancestral Warrior Totem. [L799](../poe2-0.5.0-return-of-the-ancients.md#L799)
+- Infernal Legion no longer always crits whenever it has any critical hit chance. [L803](../poe2-0.5.0-return-of-the-ancients.md#L803)
+- Reviving minions intended to inherit player movement speed now do so, including Smith of Kitava's Manifest Weapon, dismounted Rhoa Mount, and Hysseg's Claw Hyenas. [L804](../poe2-0.5.0-return-of-the-ancients.md#L804)
+- Grim Feast no longer sometimes fails to revive minions. [L808](../poe2-0.5.0-return-of-the-ancients.md#L808)
+- Boss skills can correctly target player minions. [L820](../poe2-0.5.0-return-of-the-ancients.md#L820)
+- Essence Monster pack minions now receive Rare-pack stat increases. [L842](../poe2-0.5.0-return-of-the-ancients.md#L842)
+- Varashta's Blessing now states that it does not modify minion skills. [L859](../poe2-0.5.0-return-of-the-ancients.md#L859)
+- Totems in the Skills panel no longer incorrectly prompt activation under Ancestral Bond, and presence radius indicators no longer stop working in some cases. [L863](../poe2-0.5.0-return-of-the-ancients.md#L863), [L869](../poe2-0.5.0-return-of-the-ancients.md#L869)
+- Presence radius at 0 no longer causes some buffs to incorrectly apply to yourself. [L893](../poe2-0.5.0-return-of-the-ancients.md#L893)
 
 ## Practical Read
 

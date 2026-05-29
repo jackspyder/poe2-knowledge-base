@@ -8,7 +8,7 @@ This is an extracted working view of defence-related entries. The source capture
 
 - Verisium Runeforging can add Runic Ward to armour. Lower-level armour gains it without a downside; higher-level armour trades regular base defences for Ward. [L49](../poe2-0.5.0-return-of-the-ancients.md#L49)
 - Runic Ward is a new defence that takes over at 1 life and regenerates separately from life. [L50](../poe2-0.5.0-return-of-the-ancients.md#L50)
-- Unique Verisium Runeforging can upgrade low-level unique armour bases and add Runic Ward; higher-level unique armour can also trade regular defences for Ward. [L52](../poe2-0.5.0-return-of-the-ancients.md#L52), [L1013](../poe2-0.5.0-return-of-the-ancients.md#L1013)
+- Unique Verisium Runeforging can upgrade low-level unique armour bases and add Runic Ward; higher-level unique armour can also trade regular defences for Ward. [L52](../poe2-0.5.0-return-of-the-ancients.md#L52), [L1025](../poe2-0.5.0-return-of-the-ancients.md#L1025)
 - 15+ Runic Ward runes were added. [L59](../poe2-0.5.0-return-of-the-ancients.md#L59)
 - Maximum Runic Ward now contributes to starting Honour in Trial of the Sekhemas. [L272](../poe2-0.5.0-return-of-the-ancients.md#L272)
 - The "Defences" keyword now explicitly means Armour, Evasion, and Energy Shield. It does not include Runic Ward, resistances, block, or other protection. [L273](../poe2-0.5.0-return-of-the-ancients.md#L273)
@@ -32,7 +32,7 @@ This is an extracted working view of defence-related entries. The source capture
 - Rapid Recharge now grants 12% faster recharge start and 12% recharge rate, down from 25% each. [L445](../poe2-0.5.0-return-of-the-ancients.md#L445)
 - Shimmering now gives faster recharge start and Evasion after being hit, losing its not-hit-recently Energy Shield recovery rate. [L448](../poe2-0.5.0-return-of-the-ancients.md#L448)
 - Small passive faster recharge start values are reduced to 6%, and small recharge-rate passives are replaced with lower faster-start passives. [L460](../poe2-0.5.0-return-of-the-ancients.md#L460), [L461](../poe2-0.5.0-return-of-the-ancients.md#L461)
-- Ghost Dance now uses cooldown recovery for Ghost Shroud frequency, loses a shroud when hit, and regenerates Energy Shield from Evasion after losing a shroud recently. [L491](../poe2-0.5.0-return-of-the-ancients.md#L491), [L1014](../poe2-0.5.0-return-of-the-ancients.md#L1014)
+- Ghost Dance now uses cooldown recovery for Ghost Shroud frequency, loses a shroud when hit, and regenerates Energy Shield from Evasion after losing a shroud recently. [L491](../poe2-0.5.0-return-of-the-ancients.md#L491), [L1026](../poe2-0.5.0-return-of-the-ancients.md#L1026)
 - Barkskin now converts much more lost Energy Shield into Armour: 50% at level 8, scaling to 62% at level 20. [L476](../poe2-0.5.0-return-of-the-ancients.md#L476)
 - Iron Slippers is reduced to 2 Armour per 1 Energy Shield on equipped boots, while Subterfuge Mask is reduced to 1 Evasion per 1 Energy Shield on equipped helmet. [L440](../poe2-0.5.0-return-of-the-ancients.md#L440), [L451](../poe2-0.5.0-return-of-the-ancients.md#L451)
 - Ab Aeterno and Sine Aequo have higher Armour/Evasion/Energy Shield values. [L559](../poe2-0.5.0-return-of-the-ancients.md#L559), [L585](../poe2-0.5.0-return-of-the-ancients.md#L585)
@@ -46,11 +46,11 @@ This is an extracted working view of defence-related entries. The source capture
 - Craiceann's Rune of Recovery is reduced to 30% Energy Shield Recharge Rate on body armour. [L638](../poe2-0.5.0-return-of-the-ancients.md#L638)
 - Idol of Ralakesh can grant 40% increased Armour, Evasion, and Energy Shield while your companion is in your presence. [L647](../poe2-0.5.0-return-of-the-ancients.md#L647)
 - Atmohua's Soul Core of Retreat loses faster Energy Shield recharge start and now grants ailment and stun threshold based on maximum Energy Shield. [L661](../poe2-0.5.0-return-of-the-ancients.md#L661)
-- Quipolatl's Thesis now starts Energy Shield Recharge when minions are reformed from gloves, and grants +75% of Armour also applying to Chaos Damage while on full Energy Shield from body armour. [L986](../poe2-0.5.0-return-of-the-ancients.md#L986)
+- Quipolatl's Thesis now starts Energy Shield Recharge when minions are reformed from gloves, and grants +75% of Armour also applying to Chaos Damage while on full Energy Shield from body armour. [L998](../poe2-0.5.0-return-of-the-ancients.md#L998)
 - Faster-start Energy Shield Recharge suffixes can no longer roll on Foci, Intelligence Body Armours, or Jewels; Energy Shield Recharge Rate suffixes can roll on Intelligence Body Armours. [L664](../poe2-0.5.0-return-of-the-ancients.md#L664), [L665](../poe2-0.5.0-return-of-the-ancients.md#L665)
 - Arcane Raiment and Sacramental Robe implicits become Energy Shield Recharge Rate instead of faster recharge start. [L666](../poe2-0.5.0-return-of-the-ancients.md#L666)
 - Diffusion, Dispersal, and Enlivening suffixes can no longer roll on body armour and foci; Buffering, Ardour, and Suffusion recharge-rate suffix values are reduced. [L668](../poe2-0.5.0-return-of-the-ancients.md#L668), [L669](../poe2-0.5.0-return-of-the-ancients.md#L669), [L670](../poe2-0.5.0-return-of-the-ancients.md#L670), [L671](../poe2-0.5.0-return-of-the-ancients.md#L671)
-- Bug fixes: skills costing a percentage of maximum Energy Shield can be used with zero maximum Energy Shield, Chaos Inoculation no longer distorts stun and ailment thresholds from one maximum life, Eternal Youth no longer lets zero-Energy-Shield characters bypass the Energy Shield regeneration delay for Life Regeneration, and the depleted Energy Shield audio cue now plays for damage over time. [L788](../poe2-0.5.0-return-of-the-ancients.md#L788), [L773](../poe2-0.5.0-return-of-the-ancients.md#L773), [L774](../poe2-0.5.0-return-of-the-ancients.md#L774), [L861](../poe2-0.5.0-return-of-the-ancients.md#L861)
+- Bug fixes: skills costing a percentage of maximum Energy Shield can be used with zero maximum Energy Shield, Chaos Inoculation no longer distorts stun and ailment thresholds from one maximum life, Eternal Youth no longer lets zero-Energy-Shield characters bypass the Energy Shield regeneration delay for Life Regeneration, and the depleted Energy Shield audio cue now plays for damage over time. [L789](../poe2-0.5.0-return-of-the-ancients.md#L789), [L774](../poe2-0.5.0-return-of-the-ancients.md#L774), [L775](../poe2-0.5.0-return-of-the-ancients.md#L775), [L862](../poe2-0.5.0-return-of-the-ancients.md#L862)
 
 ## Evasion
 
@@ -61,14 +61,14 @@ This is an extracted working view of defence-related entries. The source capture
 - Backup Plan, Defiance, Insulated Treads, Strong Chin, Tolerant Equipment, Wild Cat, and small Deflection passives all received Armour/Evasion/Deflection tuning. [L415](../poe2-0.5.0-return-of-the-ancients.md#L415), [L427](../poe2-0.5.0-return-of-the-ancients.md#L427), [L439](../poe2-0.5.0-return-of-the-ancients.md#L439), [L453](../poe2-0.5.0-return-of-the-ancients.md#L453), [L456](../poe2-0.5.0-return-of-the-ancients.md#L456), [L459](../poe2-0.5.0-return-of-the-ancients.md#L459)
 - The Quick Fox replacement path adds 20% increased Evasion Rating while moving to the preceding small attribute passives. [L425](../poe2-0.5.0-return-of-the-ancients.md#L425)
 - Shimmering now grants 20% increased Evasion if hit recently. [L448](../poe2-0.5.0-return-of-the-ancients.md#L448)
-- Ghost Dance now regenerates Energy Shield equal to 2% of Evasion Rating per second after losing a Ghost Shroud recently. [L491](../poe2-0.5.0-return-of-the-ancients.md#L491), [L1014](../poe2-0.5.0-return-of-the-ancients.md#L1014)
+- Ghost Dance now regenerates Energy Shield equal to 2% of Evasion Rating per second after losing a Ghost Shroud recently. [L491](../poe2-0.5.0-return-of-the-ancients.md#L491), [L1026](../poe2-0.5.0-return-of-the-ancients.md#L1026)
 - Magma Barrier shield scaling is reduced to 5-7 added Fire Damage per 15 Armour and Evasion. [L497](../poe2-0.5.0-return-of-the-ancients.md#L497)
 - Refraction I and II make supported Banner skills grant Deflection Rating based on allies' Evasion Rating. [L550](../poe2-0.5.0-return-of-the-ancients.md#L550), [L551](../poe2-0.5.0-return-of-the-ancients.md#L551)
 - Ab Aeterno and Sine Aequo have higher Armour/Evasion/Energy Shield values. [L559](../poe2-0.5.0-return-of-the-ancients.md#L559), [L585](../poe2-0.5.0-return-of-the-ancients.md#L585)
 - Hyrri's Ire has lower Evasion Rating, reduced from 200-250% to 100-150%. [L575](../poe2-0.5.0-return-of-the-ancients.md#L575)
 - Item Evasion is increased at higher levels: about 33% more at level 65, tapering to 15% at level 80+. [L603](../poe2-0.5.0-return-of-the-ancients.md#L603)
 - Idol of Ralakesh can grant 40% increased Armour, Evasion, and Energy Shield while your companion is in your presence. [L647](../poe2-0.5.0-return-of-the-ancients.md#L647)
-- Bug fix: The Bloated Miller's backhand swing can now be blocked, parried, or evaded. [L818](../poe2-0.5.0-return-of-the-ancients.md#L818)
+- Bug fix: The Bloated Miller's backhand swing can now be blocked, parried, or evaded. [L819](../poe2-0.5.0-return-of-the-ancients.md#L819)
 
 ## Armour
 
@@ -89,9 +89,9 @@ This is an extracted working view of defence-related entries. The source capture
 - Keeper of the Arc has higher Armour and Energy Shield values. [L576](../poe2-0.5.0-return-of-the-ancients.md#L576)
 - Item Armour is increased at higher levels: about 33% more at level 65, tapering to 15% at level 80+. Existing base Armour adjusts automatically, while Armour modifiers can be updated with a Divine Orb. [L602](../poe2-0.5.0-return-of-the-ancients.md#L602), [L606](../poe2-0.5.0-return-of-the-ancients.md#L606)
 - Idol of Ralakesh can grant 40% increased Armour, Evasion, and Energy Shield while your companion is in your presence. [L647](../poe2-0.5.0-return-of-the-ancients.md#L647)
-- Quipolatl's Thesis improves its full-Energy-Shield Armour-to-Chaos-Damage body-armour value to +75%, and Guatelitzi's Thesis now grants Armour equal to 35% of Life lost from hits in the past 8 seconds from helmets. [L986](../poe2-0.5.0-return-of-the-ancients.md#L986), [L987](../poe2-0.5.0-return-of-the-ancients.md#L987)
+- Quipolatl's Thesis improves its full-Energy-Shield Armour-to-Chaos-Damage body-armour value to +75%, and Guatelitzi's Thesis now grants Armour equal to 35% of Life lost from hits in the past 8 seconds from helmets. [L998](../poe2-0.5.0-return-of-the-ancients.md#L998), [L999](../poe2-0.5.0-return-of-the-ancients.md#L999)
 - Stag Idol no longer has the bonded modifier that let Thorns Damage ignore enemy Armour. [L659](../poe2-0.5.0-return-of-the-ancients.md#L659)
-- Bug fix: Heavy Armour notable description was corrected. [L797](../poe2-0.5.0-return-of-the-ancients.md#L797)
+- Bug fix: Heavy Armour notable description was corrected. [L798](../poe2-0.5.0-return-of-the-ancients.md#L798)
 
 ## Life
 
@@ -114,11 +114,11 @@ This is an extracted working view of defence-related entries. The source capture
 - Soul Mantle loses reduced Totem Life and gains Spirit. [L586](../poe2-0.5.0-return-of-the-ancients.md#L586)
 - Zerphi's Genesis now converts Life Flask charges into Charm charges and adds cost-efficiency support for corrupted-gem skills. [L589](../poe2-0.5.0-return-of-the-ancients.md#L589)
 - Body Runes grant higher maximum Life on armour items and stronger Physical Damage Leeched as Life on Martial Weapons. [L622](../poe2-0.5.0-return-of-the-ancients.md#L622)
-- Physical Attack Damage leeched as Life/Mana affixes on gloves and rings now roll lower, lose their first tiers, and move remaining suffix tiers to lower item levels; Vampire and Desperate can now also roll on bows and crossbows. [L988-L998](../poe2-0.5.0-return-of-the-ancients.md#L988-L998)
+- Physical Attack Damage leeched as Life/Mana affixes on gloves and rings now roll lower, lose their first tiers, and move remaining suffix tiers to lower item levels; Vampire and Desperate can now also roll on bows and crossbows. [L1000-L1010](../poe2-0.5.0-return-of-the-ancients.md#L1000-L1010)
 - Rebirth Runes improve Life on kill for Martial Weapons and Life regeneration on armour items. [L624](../poe2-0.5.0-return-of-the-ancients.md#L624)
 - Vision Runes improve Life and Mana Flask Recovery on armour items. [L627](../poe2-0.5.0-return-of-the-ancients.md#L627)
 - Standard Rune bonded modifiers now grant 20 Life and 20 Mana on armour items. [L634](../poe2-0.5.0-return-of-the-ancients.md#L634)
 - Boar Idol now grants allies 0.5% of your maximum Life regenerated per second from Sceptres. [L651](../poe2-0.5.0-return-of-the-ancients.md#L651)
 - Primate Idol improves minion maximum Life from helmets. [L656](../poe2-0.5.0-return-of-the-ancients.md#L656)
 - Normal enemy Culling Strike Threshold is now 35% of maximum Life. [L685](../poe2-0.5.0-return-of-the-ancients.md#L685)
-- Bug fixes: Life Flasks can be used correctly at full life with Enduring Elixirs, and Herald of Blood text now references Blood Loss rather than maximum Life. [L749](../poe2-0.5.0-return-of-the-ancients.md#L749), [L859](../poe2-0.5.0-return-of-the-ancients.md#L859)
+- Bug fixes: Life Flasks can be used correctly at full life with Enduring Elixirs, and Herald of Blood text now references Blood Loss rather than maximum Life. [L750](../poe2-0.5.0-return-of-the-ancients.md#L750), [L860](../poe2-0.5.0-return-of-the-ancients.md#L860)

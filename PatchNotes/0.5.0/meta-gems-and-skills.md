@@ -6,11 +6,12 @@ This is an extracted working view of meta gem, skill, support, and skill-related
 
 ## New Skills, Supports, and Build Tooling
 
-- Runes of Aldur now lists 23 Kalguuran Skills craftable from Remnants; the update log explicitly adds Rain of Blades and Wardbound Minions to the skill list. [L60](../poe2-0.5.0-return-of-the-ancients.md#L60), [L959](../poe2-0.5.0-return-of-the-ancients.md#L959)
-- Runes of Aldur adds 7 Kalguuran Supports craftable from Remnants, with Kalguuran Conviction removed from the support list. [L61](../poe2-0.5.0-return-of-the-ancients.md#L61), [L915](../poe2-0.5.0-return-of-the-ancients.md#L915)
+- Runes of Aldur now lists 23 Kalguuran Skills craftable from Remnants; the update log explicitly adds Rain of Blades and Wardbound Minions to the skill list. [L60](../poe2-0.5.0-return-of-the-ancients.md#L60), [L971](../poe2-0.5.0-return-of-the-ancients.md#L971)
+- Runes of Aldur adds 7 Kalguuran Supports craftable from Remnants, with Kalguuran Conviction removed from the support list. [L61](../poe2-0.5.0-return-of-the-ancients.md#L61), [L927](../poe2-0.5.0-return-of-the-ancients.md#L927)
 - 23 new Lineage Supports were added, including Olroth's Conviction and Olroth's Hubris. [L290-L312](../poe2-0.5.0-return-of-the-ancients.md#L290-L312)
 - Minion Splash and Minion Splash II Strength Support Gems were added. [L356](../poe2-0.5.0-return-of-the-ancients.md#L356)
 - Build Guide support was added, including downloadable `.build` files with passive, ascendancy, skill gem, and support gem recommendations. [L358](../poe2-0.5.0-return-of-the-ancients.md#L358)
+- The Support Gem cutting UI's "All Valid" tab now also shows support gems valid for any Skill Gem socketed into the selected Meta Gem. [L728](../poe2-0.5.0-return-of-the-ancients.md#L728)
 
 ## Ascendancy Skill and Gem Interactions
 
@@ -48,7 +49,7 @@ This is an extracted working view of meta gem, skill, support, and skill-related
 - Static Shocks received a trigger-condition description clarification. [L553](../poe2-0.5.0-return-of-the-ancients.md#L553)
 - Svalinn's Cast on Block Skill now makes supported skills cost nothing. [L587](../poe2-0.5.0-return-of-the-ancients.md#L587)
 - Zerphi's Genesis gives skills from Corrupted Gems cost efficiency during flask effects. [L589](../poe2-0.5.0-return-of-the-ancients.md#L589)
-- Bug fixes cover Feral Invocation and Devour, triggered-skill classification, triggered skills generating energy, Dialla's Desire quality for Meta Skill and item-granted Skill Gems, Pounce gem art as a Meta Gem, and channelled skill interruption. [L754](../poe2-0.5.0-return-of-the-ancients.md#L754), [L795](../poe2-0.5.0-return-of-the-ancients.md#L795), [L806](../poe2-0.5.0-return-of-the-ancients.md#L806), [L811](../poe2-0.5.0-return-of-the-ancients.md#L811), [L830](../poe2-0.5.0-return-of-the-ancients.md#L830), [L887](../poe2-0.5.0-return-of-the-ancients.md#L887)
+- Bug fixes cover Feral Invocation and Devour, triggered-skill classification, triggered skills generating energy, Dialla's Desire quality for Meta Skill and item-granted Skill Gems, Pounce gem art as a Meta Gem, and channelled skill interruption. [L755](../poe2-0.5.0-return-of-the-ancients.md#L755), [L796](../poe2-0.5.0-return-of-the-ancients.md#L796), [L807](../poe2-0.5.0-return-of-the-ancients.md#L807), [L812](../poe2-0.5.0-return-of-the-ancients.md#L812), [L831](../poe2-0.5.0-return-of-the-ancients.md#L831), [L888](../poe2-0.5.0-return-of-the-ancients.md#L888)
 
 ## Skill Changes
 
@@ -66,10 +67,10 @@ This is an extracted working view of meta gem, skill, support, and skill-related
 - Fragmentation Rounds quality changes from more Physical Damage to extra Fragments per Shot. [L488](../poe2-0.5.0-return-of-the-ancients.md#L488)
 - Freezing Salvo has lower Chill and Freeze Buildup scaling. [L489](../poe2-0.5.0-return-of-the-ancients.md#L489)
 - Gathering Storm now detonates Tempest Bell with Perfectly Timed dash, adds shockwave rules, and changes quality. [L490](../poe2-0.5.0-return-of-the-ancients.md#L490)
-- Ghost Dance is reworked around cooldown recovery, shroud loss on hit, and Energy Shield regeneration from Evasion. [L491](../poe2-0.5.0-return-of-the-ancients.md#L491), [L1014](../poe2-0.5.0-return-of-the-ancients.md#L1014)
+- Ghost Dance is reworked around cooldown recovery, shroud loss on hit, and Energy Shield regeneration from Evasion. [L491](../poe2-0.5.0-return-of-the-ancients.md#L491), [L1026](../poe2-0.5.0-return-of-the-ancients.md#L1026)
 - Grim Feast's Grim Resurrection now has a 1 second cooldown. [L492](../poe2-0.5.0-return-of-the-ancients.md#L492)
 - Ice Shot's Ice Shards lose their extra Freeze Buildup. [L493](../poe2-0.5.0-return-of-the-ancients.md#L493)
-- Ice Nova can no longer originate from Frostbolt while cascading sideways. [L975](../poe2-0.5.0-return-of-the-ancients.md#L975)
+- Ice Nova can no longer originate from Frostbolt while cascading sideways. [L987](../poe2-0.5.0-return-of-the-ancients.md#L987)
 - Lightning Arrow beams can no longer chain multiple times onto the same target. [L495](../poe2-0.5.0-return-of-the-ancients.md#L495)
 - Lunar Blessing's triggered Moonbeams are no longer melee skills. [L496](../poe2-0.5.0-return-of-the-ancients.md#L496)
 - Magma Barrier, Resonating Shield, and Shield Wall have lower shield-stat damage scaling. [L497](../poe2-0.5.0-return-of-the-ancients.md#L497), [L506](../poe2-0.5.0-return-of-the-ancients.md#L506), [L510](../poe2-0.5.0-return-of-the-ancients.md#L510)
@@ -87,7 +88,7 @@ This is an extracted working view of meta gem, skill, support, and skill-related
 - Snipe has adjusted attack and explosion damage values and a smaller Icy Blast explosion radius. [L512](../poe2-0.5.0-return-of-the-ancients.md#L512)
 - Spell Totem can be used while moving and has updated animation. [L513](../poe2-0.5.0-return-of-the-ancients.md#L513)
 - Supercharged Slam's fixed attack time text is clarified. [L514](../poe2-0.5.0-return-of-the-ancients.md#L514)
-- Primal Strikes now has a higher minimum gem level, while Tame Beast has a lower minimum gem level, immediately summons newly tamed beasts when you have enough Spirit, and increases summoned beast damage. [L515](../poe2-0.5.0-return-of-the-ancients.md#L515), [L976](../poe2-0.5.0-return-of-the-ancients.md#L976)
+- Primal Strikes now has a higher minimum gem level, while Tame Beast has a lower minimum gem level, immediately summons newly tamed beasts when you have enough Spirit, and increases summoned beast damage. [L515](../poe2-0.5.0-return-of-the-ancients.md#L515), [L988](../poe2-0.5.0-return-of-the-ancients.md#L988)
 - Tempest Bell can be Ancestrally Boosted like a Strike, can have 3 active bells, and has adjusted shockwave damage and trigger frequency. [L516](../poe2-0.5.0-return-of-the-ancients.md#L516)
 - Toxic Growth fires more Pustules but has a much lower Pustule limit and different quality scaling. [L517](../poe2-0.5.0-return-of-the-ancients.md#L517)
 - Thrashing Vines frequency text is clarified. [L518](../poe2-0.5.0-return-of-the-ancients.md#L518)
@@ -108,7 +109,7 @@ This is an extracted working view of meta gem, skill, support, and skill-related
 - Infernal Legion I/II reduce minion maximum-Life self-damage and ignite scaling; Infernal Legion II also grants Fire Resistance. Infernal Legion III can no longer be obtained. [L538](../poe2-0.5.0-return-of-the-ancients.md#L538), [L539](../poe2-0.5.0-return-of-the-ancients.md#L539), [L540](../poe2-0.5.0-return-of-the-ancients.md#L540)
 - Living Lightning no longer replaces minions when already at the minion cap. [L541](../poe2-0.5.0-return-of-the-ancients.md#L541)
 - Mark of Siphoning adds Mana Leech from Physical Attack Damage, and Mark of Siphoning II adds both Mana and Life Leech from Physical Attack Damage. [L542](../poe2-0.5.0-return-of-the-ancients.md#L542), [L543](../poe2-0.5.0-return-of-the-ancients.md#L543)
-- Spell Cascade is no longer limited to spells you use yourself. [L977](../poe2-0.5.0-return-of-the-ancients.md#L977)
+- Spell Cascade is no longer limited to spells you use yourself. [L989](../poe2-0.5.0-return-of-the-ancients.md#L989)
 - Overabundance III now describes its Persistent Skill restriction correctly. [L545](../poe2-0.5.0-return-of-the-ancients.md#L545)
 - Overextend can no longer be obtained. [L546](../poe2-0.5.0-return-of-the-ancients.md#L546)
 - Paquate's Pact now triggers a scaled Corrupted Blood skill and changes its Life-cost behavior. [L547](../poe2-0.5.0-return-of-the-ancients.md#L547)
@@ -123,22 +124,23 @@ This is an extracted working view of meta gem, skill, support, and skill-related
 
 - The Vertex now rolls Curse Skill Gem levels instead of all Skill Gem levels. [L200](../poe2-0.5.0-return-of-the-ancients.md#L200)
 - Chober Chaber now grants +2-3 to all Minion Skills. [L567](../poe2-0.5.0-return-of-the-ancients.md#L567)
-- Collapsing Horizon now grants increased Elemental Damage generally rather than only Elemental Damage with Attacks. [L978](../poe2-0.5.0-return-of-the-ancients.md#L978)
+- Collapsing Horizon now grants increased Elemental Damage generally rather than only Elemental Damage with Attacks. [L990](../poe2-0.5.0-return-of-the-ancients.md#L990)
 - The Hollow Mask now grants Wildwood's Gifts and improves Remnant Skill reservation efficiency. [L573](../poe2-0.5.0-return-of-the-ancients.md#L573)
 - Levinstone replaces +1 all Lightning Skills with Lightning Skills Chain +1 times. [L577](../poe2-0.5.0-return-of-the-ancients.md#L577)
-- Unborn Lich granted skills were broadly retuned: several mana costs were reduced to zero, His Foul Emergence now has a fixed 8 second cooldown, His Vile Intrusion gains much higher Impale Magnitude and more impales at high gem levels, and His Winnowing Flame casts faster with stronger Grisly Pyres. [L981-L984](../poe2-0.5.0-return-of-the-ancients.md#L981-L984)
+- Unborn Lich granted skills were broadly retuned: several mana costs were reduced to zero, His Foul Emergence now has a fixed 8 second cooldown, His Vile Intrusion gains much higher Impale Magnitude and more impales at high gem levels, and His Winnowing Flame casts faster with stronger Grisly Pyres. [L993-L996](../poe2-0.5.0-return-of-the-ancients.md#L993-L996)
 - Skill level modifiers on attack weapons, quivers, and Perfect Essence of Battle were reduced. [L613-L620](../poe2-0.5.0-return-of-the-ancients.md#L613-L620)
 
 ## Skill and Gem Bug Fixes
 
-- The minion damage bonus against non-unique enemies introduced in 0.3 now functions correctly, increasing late-game minion damage while removing that bonus from displayed minion skill damage. [L748](../poe2-0.5.0-return-of-the-ancients.md#L748)
-- Ritual Sacrifice, Pounce/Marks, Mirage Archer/Mirage Deadeye, Devour/Feral Invocation, clone/minion handling for "skills you use yourself" supports, and Hollow Palm Technique all received skill-function bug fixes. [L750-L754](../poe2-0.5.0-return-of-the-ancients.md#L750-L754), [L764](../poe2-0.5.0-return-of-the-ancients.md#L764), [L757](../poe2-0.5.0-return-of-the-ancients.md#L757)
-- Projectile-count and chain modifier fixes affect rain-of-arrows-like skills and beam skills, and Arc no longer gains Lightning Infused stats without spending a Lightning Infusion. [L759-L763](../poe2-0.5.0-return-of-the-ancients.md#L759-L763)
-- Unearth supportability, Unearth Bone Constructs from totems, Spell Totem/Align Fate Raging Spirit generation, and disabled Dialla's Desire support behavior were fixed. [L765](../poe2-0.5.0-return-of-the-ancients.md#L765), [L768-L771](../poe2-0.5.0-return-of-the-ancients.md#L768-L771), [L769](../poe2-0.5.0-return-of-the-ancients.md#L769)
-- Comet quality, Devour/Lightning Warp corpse interactions, Poison Spores Support prices, Burning Inscription Support ground placement, Low Tolerance description, and Arctic Howl/Echoing Cry were fixed. [L762-L782](../poe2-0.5.0-return-of-the-ancients.md#L762-L782)
-- Tactician's Cannons, Ready! now works with listed player skills; dual-wield simultaneous strikes now use intended average weapon attack time; Forge Hammer and Heightened Charges tracking/support interactions were fixed. [L785](../poe2-0.5.0-return-of-the-ancients.md#L785), [L787](../poe2-0.5.0-return-of-the-ancients.md#L787), [L790](../poe2-0.5.0-return-of-the-ancients.md#L790), [L791](../poe2-0.5.0-return-of-the-ancients.md#L791)
-- Living Lightning II, Into the Breach with Selfless Remnants, Azmeri Spirit Possession player versions, Dialla's Desire with Meta Skill and item-granted Skill Gems, and Hayoxi's Fulmination supportability were fixed. [L792-L796](../poe2-0.5.0-return-of-the-ancients.md#L792-L796)
-- Shockwave Totem, Echoing Cry, Mirage Archer/Deadeye supportability, Empower stacking, triggered-skill classification, Grim Feast minion revival, Ice Nova repeats, His Winnowing Flame, and channelled skill interruption were fixed. [L798-L811](../poe2-0.5.0-return-of-the-ancients.md#L798-L811)
-- Arc, triggered skill energy generation, Stoicism Support, Volt Support, Iron Ward/Astral Projection, Lightning Warp targeting, Ancestrally Boosted attack area, and Blink/Parry/Raise Shield skill-use tracking were fixed. [L826](../poe2-0.5.0-return-of-the-ancients.md#L826), [L830-L837](../poe2-0.5.0-return-of-the-ancients.md#L830-L837)
-- Queued skills can update targets correctly again, and additional dashes from Killing Palm and Staggering Palm should now hit their target. [L776-L777](../poe2-0.5.0-return-of-the-ancients.md#L776-L777)
-- Varashta's Blessing Lineage Support, Totem skill-panel prompts, hidden Ascendancy-granted Skills when cutting Support Gems, Always Attack Without Moving selection, and Pounce Meta Gem art were fixed or clarified. [L858](../poe2-0.5.0-return-of-the-ancients.md#L858), [L862](../poe2-0.5.0-return-of-the-ancients.md#L862), [L870](../poe2-0.5.0-return-of-the-ancients.md#L870), [L875](../poe2-0.5.0-return-of-the-ancients.md#L875), [L887](../poe2-0.5.0-return-of-the-ancients.md#L887)
+- The minion damage bonus against non-unique enemies introduced in 0.3 now functions correctly, increasing late-game minion damage while removing that bonus from displayed minion skill damage. [L749](../poe2-0.5.0-return-of-the-ancients.md#L749)
+- Ritual Sacrifice, Pounce/Marks, Mirage Archer/Mirage Deadeye, Devour/Feral Invocation, clone/minion handling for "skills you use yourself" supports, and Hollow Palm Technique all received skill-function bug fixes. [L751-L755](../poe2-0.5.0-return-of-the-ancients.md#L751-L755), [L765](../poe2-0.5.0-return-of-the-ancients.md#L765), [L758](../poe2-0.5.0-return-of-the-ancients.md#L758)
+- Projectile-count and chain modifier fixes affect rain-of-arrows-like skills and beam skills, and Arc no longer gains Lightning Infused stats without spending a Lightning Infusion. [L760-L764](../poe2-0.5.0-return-of-the-ancients.md#L760-L764)
+- Unearth supportability, Unearth Bone Constructs from totems, Spell Totem/Align Fate Raging Spirit generation, and disabled Dialla's Desire support behavior were fixed. [L766](../poe2-0.5.0-return-of-the-ancients.md#L766), [L769-L772](../poe2-0.5.0-return-of-the-ancients.md#L769-L772), [L770](../poe2-0.5.0-return-of-the-ancients.md#L770)
+- Comet quality, Devour/Lightning Warp corpse interactions, Poison Spores Support prices, Burning Inscription Support ground placement, Low Tolerance description, and Arctic Howl/Echoing Cry were fixed. [L763-L783](../poe2-0.5.0-return-of-the-ancients.md#L763-L783)
+- Tactician's Cannons, Ready! now works with listed player skills; dual-wield simultaneous strikes now use intended average weapon attack time; Forge Hammer and Heightened Charges tracking/support interactions were fixed. [L786](../poe2-0.5.0-return-of-the-ancients.md#L786), [L788](../poe2-0.5.0-return-of-the-ancients.md#L788), [L791](../poe2-0.5.0-return-of-the-ancients.md#L791), [L792](../poe2-0.5.0-return-of-the-ancients.md#L792)
+- Living Lightning II, Into the Breach with Selfless Remnants, Azmeri Spirit Possession player versions, Dialla's Desire with Meta Skill and item-granted Skill Gems, and Hayoxi's Fulmination supportability were fixed. [L793-L797](../poe2-0.5.0-return-of-the-ancients.md#L793-L797)
+- Shockwave Totem, Echoing Cry, Mirage Archer/Deadeye supportability, Empower stacking, triggered-skill classification, Grim Feast minion revival, Ice Nova repeats, His Winnowing Flame, and channelled skill interruption were fixed. [L799-L812](../poe2-0.5.0-return-of-the-ancients.md#L799-L812)
+- Arc, triggered skill energy generation, Stoicism Support, Volt Support, Iron Ward/Astral Projection, Lightning Warp targeting, Ancestrally Boosted attack area, and Blink/Parry/Raise Shield skill-use tracking were fixed. [L827](../poe2-0.5.0-return-of-the-ancients.md#L827), [L831-L838](../poe2-0.5.0-return-of-the-ancients.md#L831-L838)
+- Queued skills can update targets correctly again, and additional dashes from Killing Palm and Staggering Palm should now hit their target. [L777-L778](../poe2-0.5.0-return-of-the-ancients.md#L777-L778)
+- Varashta's Blessing Lineage Support, Totem skill-panel prompts, hidden Ascendancy-granted Skills when cutting Support Gems, Always Attack Without Moving selection, and Pounce Meta Gem art were fixed or clarified. [L859](../poe2-0.5.0-return-of-the-ancients.md#L859), [L863](../poe2-0.5.0-return-of-the-ancients.md#L863), [L871](../poe2-0.5.0-return-of-the-ancients.md#L871), [L876](../poe2-0.5.0-return-of-the-ancients.md#L876), [L888](../poe2-0.5.0-return-of-the-ancients.md#L888)
+- Stolen monster modifiers from Behead Support are no longer lost after killing a monster. [L894](../poe2-0.5.0-return-of-the-ancients.md#L894)

@@ -22,8 +22,8 @@ This is an extracted working view of critical hit chance, critical damage, and c
 
 ## Critical Hit Bug Fixes
 
-- Unarmed critical hit chance modifiers now apply correctly to the displayed skill information value. [L758](../poe2-0.5.0-return-of-the-ancients.md#L758)
-- Infernal Legion is no longer always treated as a critical hit whenever it has any critical hit chance. [L802](../poe2-0.5.0-return-of-the-ancients.md#L802)
-- His Winnowing Flame no longer incorrectly applies Critical Weakness on hit, and its triggered ignite-consuming explosions now deal damage. [L810](../poe2-0.5.0-return-of-the-ancients.md#L810)
-- Atsak's Sight's Poison on Critical Hit modifier now applies to Thorns critical hits. [L827](../poe2-0.5.0-return-of-the-ancients.md#L827)
-- Gore Spike's Critical Damage Bonus increase now displays correctly in the skill stats panel. [L775](../poe2-0.5.0-return-of-the-ancients.md#L775)
+- Unarmed critical hit chance modifiers now apply correctly to the displayed skill information value. [L759](../poe2-0.5.0-return-of-the-ancients.md#L759)
+- Infernal Legion is no longer always treated as a critical hit whenever it has any critical hit chance. [L803](../poe2-0.5.0-return-of-the-ancients.md#L803)
+- His Winnowing Flame no longer incorrectly applies Critical Weakness on hit, and its triggered ignite-consuming explosions now deal damage. [L811](../poe2-0.5.0-return-of-the-ancients.md#L811)
+- Atsak's Sight's Poison on Critical Hit modifier now applies to Thorns critical hits. [L828](../poe2-0.5.0-return-of-the-ancients.md#L828)
+- Gore Spike's Critical Damage Bonus increase now displays correctly in the skill stats panel. [L776](../poe2-0.5.0-return-of-the-ancients.md#L776)
